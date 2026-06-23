@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-23T16:17:30.658Z",
+  "updatedAt": "2026-06-23T16:17:34.354Z",
   "users": {
     "鸡毛小阿姨": {
       "weiboNickname": "鸡毛小阿姨",
@@ -694,15 +694,25 @@
           "danmuSkipped": 0,
           "lastSeenAt": "2026-06-23T16:11:48.906Z",
           "appVersion": "1.11.3"
+        },
+        "356ae1e4f1d51e9e6a790a90dbbd8444121ff5c34f741881f911b915f360df49": {
+          "deviceHash": "356ae1e4f1d5",
+          "danmuSent": 100,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-23T16:17:26.186Z",
+          "appVersion": "1.11.3"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 121,
+      "activeDevices": 3,
+      "danmuSent": 221,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T16:11:48.906Z"
+      "lastSeenAt": "2026-06-23T16:17:26.186Z"
     },
     "檀炭相依岁岁年年": {
       "weiboNickname": "檀炭相依岁岁年年",
