@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "updatedAt": "2026-06-23T14:01:25.468Z",
+  "updatedAt": "2026-06-23T14:01:34.373Z",
   "users": {
     "许多绿": {
       "weiboNickname": "许多绿",
@@ -1194,9 +1194,9 @@
           "danmuSent": 0,
           "discussionSent": 0,
           "danmuFailed": 0,
-          "discussionFailed": 0,
+          "discussionFailed": 1,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-06-23T14:01:08.408Z",
+          "lastSeenAt": "2026-06-23T14:01:20.560Z",
           "appVersion": "1.11.3"
         }
       },
@@ -1204,9 +1204,9 @@
       "danmuSent": 32,
       "discussionSent": 0,
       "danmuFailed": 0,
-      "discussionFailed": 1,
+      "discussionFailed": 2,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T14:01:08.408Z"
+      "lastSeenAt": "2026-06-23T14:01:20.560Z"
     }
   }
 }
