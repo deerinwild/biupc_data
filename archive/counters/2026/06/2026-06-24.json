@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-23T16:10:38.413Z",
+  "updatedAt": "2026-06-23T16:10:42.244Z",
   "users": {
     "鸡毛小阿姨": {
       "weiboNickname": "鸡毛小阿姨",
@@ -482,15 +482,25 @@
           "danmuSkipped": 0,
           "lastSeenAt": "2026-06-23T16:10:06.564Z",
           "appVersion": "1.11.3"
+        },
+        "83998893b236a64f044305faa5dfdeb1351f97a6f0fd764b039eb6430f75e017": {
+          "deviceHash": "83998893b236",
+          "danmuSent": 102,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-23T16:10:08.120Z",
+          "appVersion": "1.11.3"
         }
       },
-      "activeDevices": 10,
-      "danmuSent": 902,
+      "activeDevices": 11,
+      "danmuSent": 1004,
       "discussionSent": 13,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T16:10:06.564Z"
+      "lastSeenAt": "2026-06-23T16:10:08.120Z"
     },
     "西_小调": {
       "weiboNickname": "西_小调",
