@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-23T16:16:13.073Z",
+  "updatedAt": "2026-06-23T16:16:31.972Z",
   "users": {
     "鸡毛小阿姨": {
       "weiboNickname": "鸡毛小阿姨",
@@ -750,15 +750,25 @@
           "danmuSkipped": 0,
           "lastSeenAt": "2026-06-23T16:11:19.064Z",
           "appVersion": "1.11.3"
+        },
+        "46d2ad53acab456fdbbc9c0fc547fb16c397c7569c711104a8d2fc063b990365": {
+          "deviceHash": "46d2ad53acab",
+          "danmuSent": 100,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-23T16:16:26.020Z",
+          "appVersion": "1.11.3"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 68,
+      "activeDevices": 2,
+      "danmuSent": 168,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T16:11:19.064Z"
+      "lastSeenAt": "2026-06-23T16:16:26.020Z"
     },
     "小刺猬是宝邶": {
       "weiboNickname": "小刺猬是宝邶",
