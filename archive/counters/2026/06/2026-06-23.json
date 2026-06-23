@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "updatedAt": "2026-06-23T01:32:14.888Z",
+  "updatedAt": "2026-06-23T01:32:45.192Z",
   "users": {
     "许多绿": {
       "weiboNickname": "许多绿",
@@ -185,12 +185,12 @@
         },
         "2b920fbd37333ea3613aa2381e35548ad886ed8e7488651803a780980f84c673": {
           "deviceHash": "2b920fbd3733",
-          "danmuSent": 0,
+          "danmuSent": 100,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-06-23T01:22:48.900Z",
+          "lastSeenAt": "2026-06-23T01:32:44.721Z",
           "appVersion": "1.11.3"
         },
         "46fe54880fb3cf6f0ff01c63f92acd6a22f5dfc10defe146283a90e71e73d29c": {
@@ -225,12 +225,12 @@
         }
       },
       "activeDevices": 7,
-      "danmuSent": 322,
+      "danmuSent": 422,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T01:31:14.986Z"
+      "lastSeenAt": "2026-06-23T01:32:44.721Z"
     }
   }
 }
