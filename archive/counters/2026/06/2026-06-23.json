@@ -1,6 +1,6 @@
 {
   "date": "2026-06-23",
-  "updatedAt": "2026-06-23T05:47:32.432Z",
+  "updatedAt": "2026-06-23T05:47:39.414Z",
   "users": {
     "许多绿": {
       "weiboNickname": "许多绿",
@@ -521,6 +521,28 @@
       "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-23T05:39:55.092Z"
+    },
+    "穿越月光之境": {
+      "weiboNickname": "穿越月光之境",
+      "devices": {
+        "c321a292b7ba76ed0f946ee07bc04b2e796b36b82119b104cc6fe38cf082dc42": {
+          "deviceHash": "c321a292b7ba",
+          "danmuSent": 0,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-23T05:47:38.519Z",
+          "appVersion": "1.11.3"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-23T05:47:38.519Z"
     }
   }
 }
