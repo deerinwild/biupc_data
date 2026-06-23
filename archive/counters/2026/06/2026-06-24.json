@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-23T16:01:58.638Z",
+  "updatedAt": "2026-06-23T16:02:22.274Z",
   "users": {
     "鸡毛小阿姨": {
       "weiboNickname": "鸡毛小阿姨",
@@ -89,6 +89,28 @@
       "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-23T16:01:50.239Z"
+    },
+    "多多的糖宝宝JC-T": {
+      "weiboNickname": "多多的糖宝宝JC-T",
+      "devices": {
+        "6a48c09a5fda441dba6fd2875b6b37f052e438deb4aa56cce730f3832af018d6": {
+          "deviceHash": "6a48c09a5fda",
+          "danmuSent": 0,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-23T16:02:18.563Z",
+          "appVersion": "1.11.3"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-23T16:02:18.563Z"
     }
   }
 }
