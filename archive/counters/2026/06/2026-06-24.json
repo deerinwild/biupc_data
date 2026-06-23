@@ -1,6 +1,6 @@
 {
   "date": "2026-06-24",
-  "updatedAt": "2026-06-23T16:07:10.204Z",
+  "updatedAt": "2026-06-23T16:07:35.361Z",
   "users": {
     "鸡毛小阿姨": {
       "weiboNickname": "鸡毛小阿姨",
@@ -146,15 +146,25 @@
           "danmuSkipped": 0,
           "lastSeenAt": "2026-06-23T16:04:32.736Z",
           "appVersion": "1.11.0"
+        },
+        "34156b3c86aec20f297ee7ca3e7126a4fcf90ab8a2e2307f3ff4b459b0169243": {
+          "deviceHash": "34156b3c86ae",
+          "danmuSent": 49,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-23T16:07:29.342Z",
+          "appVersion": "1.11.0"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 24,
+      "activeDevices": 2,
+      "danmuSent": 73,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T16:04:32.736Z"
+      "lastSeenAt": "2026-06-23T16:07:29.342Z"
     },
     "苦b不额外加糖": {
       "weiboNickname": "苦b不额外加糖",
