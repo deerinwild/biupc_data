@@ -1,18 +1,6 @@
 {
   "month": "2026-06",
   "days": {
-    "2026-06-23": {
-      "date": "2026-06-23",
-      "activeUsers": 47,
-      "activeDevices": 151,
-      "danmuSent": 275377,
-      "discussionSent": 6387,
-      "danmuFailed": 0,
-      "discussionFailed": 622,
-      "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-23T15:59:59.699Z",
-      "updatedAt": "2026-06-24T04:43:11.327Z"
-    },
     "2026-06-22": {
       "date": "2026-06-22",
       "activeUsers": 2,
@@ -25,6 +13,18 @@
       "lastSeenAt": "2026-06-22T15:59:56.340Z",
       "updatedAt": "2026-06-24T04:43:09.766Z"
     },
+    "2026-06-23": {
+      "date": "2026-06-23",
+      "activeUsers": 47,
+      "activeDevices": 151,
+      "danmuSent": 275377,
+      "discussionSent": 6387,
+      "danmuFailed": 0,
+      "discussionFailed": 622,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-23T15:59:59.699Z",
+      "updatedAt": "2026-06-24T04:43:11.327Z"
+    },
     "2026-06-24": {
       "date": "2026-06-24",
       "activeUsers": 57,
@@ -36,19 +36,7 @@
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-24T04:42:53.969Z",
       "updatedAt": "2026-06-24T04:43:12.953Z"
-    },
-    "2026-06-25": {
-      "date": "2026-06-25",
-      "activeUsers": 1,
-      "activeDevices": 5,
-      "danmuSent": 497,
-      "discussionSent": 0,
-      "danmuFailed": 0,
-      "discussionFailed": 0,
-      "danmuSkipped": 0,
-      "lastSeenAt": "2026-06-24T16:50:36.203Z",
-      "updatedAt": "2026-06-24T04:38:07.377Z"
     }
   },
-  "updatedAt": "2026-06-24T04:43:13.928Z"
+  "updatedAt": "2026-06-24T04:43:12.953Z"
 }
