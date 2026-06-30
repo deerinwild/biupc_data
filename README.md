@@ -1,6 +1,6 @@
 # biupc_data GitHub Pages 面板
 
-把本目录下的 `index.html` 上传到 `https://github.com/deerinwild/biupc_dashboard` 仓库根目录，然后在 GitHub 仓库设置中启用 Pages：
+把本目录下的 `index.html` 上传到 `https://github.com/deerinwild/biupc_data` 仓库根目录，然后在 GitHub 仓库设置中启用 Pages：
 
 1. 进入仓库 `Settings` → `Pages`。
 2. `Source` 选择 `Deploy from a branch`。
