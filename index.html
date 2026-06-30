@@ -151,6 +151,17 @@
       throw new Error(errors.join('；'));
     }
 
+    async function resolveLatestIndex(json, path, mode) {
+      if (!json || typeof json !== 'object') return { json, path };
+      const target = mode === 'month'
+        ? (json.latestSummaryPath || json.summaryPath)
+        : (json.latestCounterPath || json.counterPath);
+      if (!target || target === path) return { json, path };
+      const res = await fetch(target + `?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`${target}: ${res.status}`);
+      return { json: await res.json(), path: `${target}（由 ${path} 指向）` };
+    }
+
     function flattenRecords(data) {
       const records = [];
       const push = (row, context = {}) => {
@@ -241,7 +252,8 @@
       const date = $('dateInput').value || `${yyyy}-${mm}-${dd}`;
       const paths = mode === 'month' ? candidatePathsForMonth(date) : candidatePathsForDate(date);
       try {
-        const { json, path } = await fetchFirst(paths);
+        const first = await fetchFirst(paths);
+        const { json, path } = await resolveLatestIndex(first.json, first.path, mode);
         render(json, path);
       } catch (err) {
         $('error').style.display = 'block';
