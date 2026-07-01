@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "updatedAt": "2026-07-01T16:14:16.196Z",
+  "updatedAt": "2026-07-01T16:19:44.206Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -646,10 +646,32 @@
           "lastSeenAt": "2026-07-01T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-30T04:42:35.505Z"
+        },
+        "46fe54880fb3cf6f0ff01c63f92acd6a22f5dfc10defe146283a90e71e73d29c": {
+          "deviceHash": "46fe54880fb3",
+          "danmuSent": 7110,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-30T04:13:32.982Z"
+        },
+        "09d72ca4d9b372dc4d489671ea325c66b65a5a156e5ce9ce3a0fdecbfe4b8f0d": {
+          "deviceHash": "09d72ca4d9b3",
+          "danmuSent": 12142,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-30T02:10:03.572Z"
         }
       },
-      "activeDevices": 31,
-      "danmuSent": 289639,
+      "activeDevices": 33,
+      "danmuSent": 308891,
       "discussionSent": 7366,
       "danmuFailed": 0,
       "discussionFailed": 1,
@@ -2046,10 +2068,21 @@
           "lastSeenAt": "2026-07-01T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-29T16:20:07.396Z"
+        },
+        "4b33d35b395c2199ad6e8243471b040e8001600df7ec832ccf365442d13ed382": {
+          "deviceHash": "4b33d35b395c",
+          "danmuSent": 42,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-30T03:12:33.350Z"
         }
       },
-      "activeDevices": 7,
-      "danmuSent": 15405,
+      "activeDevices": 8,
+      "danmuSent": 15447,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
