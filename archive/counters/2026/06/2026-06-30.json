@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "updatedAt": "2026-07-01T11:43:14.699Z",
+  "updatedAt": "2026-07-01T11:48:32.047Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -4132,11 +4132,67 @@
           "lastSeenAt": "2026-07-01T15:59:59.999Z",
           "appVersion": "1.13.0",
           "clientTimestamp": "2026-06-29T16:22:06.356Z"
+        },
+        "460eebd975241e28a33186d91cb68aa789c8efc0dc323a4637288d3b90351576": {
+          "deviceHash": "460eebd97524",
+          "danmuSent": 72,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-29T16:11:07.976Z"
+        },
+        "47ccff88d6d076b9e33dea59e18919c1537c4c2f85780488b7aef32800229ad2": {
+          "deviceHash": "47ccff88d6d0",
+          "danmuSent": 72,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-29T16:10:58.285Z"
+        },
+        "8804f75ba721fb2e350a498a69769270633bb334b0f32739809e1d22cfe87ec4": {
+          "deviceHash": "8804f75ba721",
+          "danmuSent": 128,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-29T16:22:08.563Z"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 0,
+      "activeDevices": 5,
+      "danmuSent": 272,
       "discussionSent": 152,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-01T15:59:59.999Z"
+    },
+    "不会起昵称jc": {
+      "weiboNickname": "不会起昵称jc",
+      "devices": {
+        "d45f2eb16807d70eadbff262f5001d7f9e8510e492850aa5782a097fec9cd69b": {
+          "deviceHash": "d45f2eb16807",
+          "danmuSent": 550,
+          "discussionSent": 209,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-30T15:59:56.121Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 550,
+      "discussionSent": 209,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
