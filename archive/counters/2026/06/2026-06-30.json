@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "updatedAt": "2026-07-01T11:53:48.775Z",
+  "updatedAt": "2026-07-01T11:59:05.529Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -4218,6 +4218,40 @@
       "discussionSent": 369,
       "danmuFailed": 0,
       "discussionFailed": 282,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-01T15:59:59.999Z"
+    },
+    "萤火星河的梦": {
+      "weiboNickname": "萤火星河的梦",
+      "devices": {
+        "f3a118ead4853fade90eeb64c49dd958a9d9eea42ea986832ef9cb8ba9c1d56e": {
+          "deviceHash": "f3a118ead485",
+          "danmuSent": 1804,
+          "discussionSent": 180,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-30T14:56:28.459Z"
+        },
+        "3b563900f8a235d42e7e240587d759af3459b02cfa72b58290b961ac2f694b02": {
+          "deviceHash": "3b563900f8a2",
+          "danmuSent": 715,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-01T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-30T14:41:23.241Z"
+        }
+      },
+      "activeDevices": 2,
+      "danmuSent": 2519,
+      "discussionSent": 180,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-01T15:59:59.999Z"
     }
