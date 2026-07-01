@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "updatedAt": "2026-07-01T10:50:28.423Z",
+  "updatedAt": "2026-07-01T10:55:44.933Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -875,10 +875,21 @@
           "lastSeenAt": "2026-06-29T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-28T07:53:03.094Z"
+        },
+        "2620e2b95d7e5490aae7d3930e804cdfac0d81829dc2e2fd97170b6141c2c581": {
+          "deviceHash": "2620e2b95d7e",
+          "danmuSent": 3352,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-28T15:59:52.759Z"
         }
       },
-      "activeDevices": 5,
-      "danmuSent": 19574,
+      "activeDevices": 6,
+      "danmuSent": 22926,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -2434,6 +2445,140 @@
       "discussionSent": 392,
       "danmuFailed": 0,
       "discussionFailed": 5,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-29T15:59:59.999Z"
+    },
+    "GaRliiccc": {
+      "weiboNickname": "GaRliiccc",
+      "devices": {
+        "2647ea0d5b872ec05aaff6472a1e0fee2d578102ea78bcb5ec01ea47d186657d": {
+          "deviceHash": "2647ea0d5b87",
+          "danmuSent": 2739,
+          "discussionSent": 2000,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:54.262Z"
+        },
+        "44cf6c75f1699b131e2b4f632cde3f33b02f39e33393b44aebfb6fb7caf99973": {
+          "deviceHash": "44cf6c75f169",
+          "danmuSent": 2607,
+          "discussionSent": 2000,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:50.021Z"
+        },
+        "9f41a8095023ebb3199f32fb8fd4310980a599c994a15c65bddc894698e41553": {
+          "deviceHash": "9f41a8095023",
+          "danmuSent": 2514,
+          "discussionSent": 2000,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:59.906Z"
+        },
+        "55e2ed705375b04ab7c7973b52dc6934ba2b639b39fe2beba1c396c18b974466": {
+          "deviceHash": "55e2ed705375",
+          "danmuSent": 2719,
+          "discussionSent": 733,
+          "danmuFailed": 0,
+          "discussionFailed": 1178,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:52.356Z"
+        },
+        "218ecd8a2a25a53b20ffe25faca4e330c536a722b1ed209ee240cddc86e2ed0f": {
+          "deviceHash": "218ecd8a2a25",
+          "danmuSent": 2702,
+          "discussionSent": 2000,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:58.964Z"
+        },
+        "d7669023525397977b928429bd057e7533aaa636581524c4355f323d62795da9": {
+          "deviceHash": "d76690235253",
+          "danmuSent": 2708,
+          "discussionSent": 618,
+          "danmuFailed": 0,
+          "discussionFailed": 1382,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:54.085Z"
+        },
+        "aea0101b830e4acdf61e3c0a88ce901fbfc83e243c331332fdf1f0e920f8c5e3": {
+          "deviceHash": "aea0101b830e",
+          "danmuSent": 82,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 2,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:53:32.032Z"
+        },
+        "46d2ad53acab456fdbbc9c0fc547fb16c397c7569c711104a8d2fc063b990365": {
+          "deviceHash": "46d2ad53acab",
+          "danmuSent": 2717,
+          "discussionSent": 1999,
+          "danmuFailed": 0,
+          "discussionFailed": 1,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:50.035Z"
+        },
+        "f0496a96c1fdb770b5eb6a37c013a5335e9f441848c8ce3294459acd6b1626cb": {
+          "deviceHash": "f0496a96c1fd",
+          "danmuSent": 2689,
+          "discussionSent": 429,
+          "danmuFailed": 0,
+          "discussionFailed": 1521,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:55.268Z"
+        }
+      },
+      "activeDevices": 9,
+      "danmuSent": 21477,
+      "discussionSent": 11779,
+      "danmuFailed": 0,
+      "discussionFailed": 4084,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-29T15:59:59.999Z"
+    },
+    "柳柳jct": {
+      "weiboNickname": "柳柳jct",
+      "devices": {
+        "dcee51f2da5efd295c1da81ff5a954dcdfdde82f9a30f66a261557787cb6ad89": {
+          "deviceHash": "dcee51f2da5e",
+          "danmuSent": 3466,
+          "discussionSent": 421,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:57:14.638Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 3466,
+      "discussionSent": 421,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-29T15:59:59.999Z"
     }
