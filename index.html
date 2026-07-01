@@ -1,270 +1,420 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>biubiubiu 电脑版数据</title>
   <style>
     :root {
       color-scheme: light;
-      --bg: #f7f8fb;
-      --card: #ffffff;
-      --text: #111827;
-      --muted: #6b7280;
-      --line: #e5e7eb;
-      --brand: #2563eb;
-      --brand-soft: #eff6ff;
-      --danger: #b91c1c;
-      --shadow: 0 10px 30px rgba(15, 23, 42, .08);
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --soft:#f9fafb;
+      --brand:#2563eb;
+      --brandSoft:#eff6ff;
+      --warnBg:#fff7ed;
+      --warnLine:#fed7aa;
+      --warnText:#9a3412;
+      --okBg:#f0fdf4;
+      --okLine:#bbf7d0;
+      --okText:#166534;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; font: 14px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); }
-    header { max-width: 1180px; margin: 0 auto; padding: 28px 18px 12px; display: flex; gap: 14px; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; }
-    h1 { margin: 0; font-size: 26px; letter-spacing: .2px; }
-    .sub { color: var(--muted); margin-top: 4px; }
-    .toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-    input, button, select { border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px; background: #fff; font: inherit; }
-    button { cursor: pointer; background: var(--brand); color: #fff; border-color: var(--brand); font-weight: 600; }
-    button.secondary { background: #fff; color: var(--text); border-color: var(--line); }
-    main { max-width: 1180px; margin: 0 auto; padding: 12px 18px 40px; }
-    .cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
-    .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); padding: 16px; }
-    .metric .label { color: var(--muted); font-size: 13px; }
-    .metric .value { font-size: 28px; font-weight: 800; margin-top: 5px; }
-    .grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 14px; margin-top: 14px; }
-    h2 { font-size: 17px; margin: 0 0 12px; }
-    table { width: 100%; border-collapse: collapse; }
-    th, td { border-bottom: 1px solid var(--line); padding: 9px 8px; text-align: left; vertical-align: middle; }
-    th { color: var(--muted); font-weight: 700; background: #fafafa; }
-    tr:hover td { background: #fbfdff; }
-    .right { text-align: right; }
-    .muted { color: var(--muted); }
-    .status { margin-top: 12px; color: var(--muted); }
-    .error { color: var(--danger); background: #fff5f5; border: 1px solid #fecaca; border-radius: 12px; padding: 10px 12px; margin: 12px 0; display: none; }
-    .raw { margin-top: 14px; }
-    pre { margin: 0; overflow: auto; max-height: 360px; padding: 12px; border-radius: 12px; background: #0f172a; color: #e5e7eb; font-size: 12px; }
-    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--brand-soft); color: var(--brand); font-weight: 700; font-size: 12px; }
-    @media (max-width: 980px) { .cards { grid-template-columns: repeat(2, 1fr); } .grid { grid-template-columns: 1fr; } }
-    @media (max-width: 560px) { header { align-items: stretch; } .toolbar { width: 100%; } input { flex: 1; min-width: 0; } .cards { grid-template-columns: 1fr; } }
+    body {
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;
+    }
+    .wrap { max-width:1180px; margin:0 auto; padding:24px; }
+    .head { display:flex; gap:16px; justify-content:space-between; align-items:flex-end; margin-bottom:14px; }
+    h1 { margin:0 0 6px; font-size:28px; line-height:1.2; }
+    .muted { color:var(--muted); font-size:13px; }
+    .toolbar { display:flex; align-items:center; justify-content:flex-end; gap:8px; flex-wrap:wrap; }
+    .btn, input {
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:999px;
+      padding:9px 14px;
+      font:inherit;
+    }
+    input { min-width:148px; }
+    .btn { cursor:pointer; font-weight:750; color:var(--text); }
+    .btn.primary { background:var(--brand); color:#fff; border-color:var(--brand); }
+    .btn:hover { filter:brightness(.98); }
+    .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:18px 0; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:18px; box-shadow:0 1px 2px rgba(15,23,42,.04); }
+    .label { color:var(--muted); font-size:14px; }
+    .num { font-size:32px; font-weight:850; margin-top:8px; letter-spacing:-.02em; }
+    .panel { background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:hidden; box-shadow:0 1px 2px rgba(15,23,42,.04); }
+    .panelTitle { display:flex; justify-content:space-between; gap:12px; align-items:center; padding:16px 18px; border-bottom:1px solid var(--line); }
+    .panelTitle h2 { margin:0; font-size:18px; }
+    .tableWrap { overflow:auto; }
+    table { width:100%; border-collapse:collapse; }
+    th,td { text-align:left; padding:12px 14px; border-bottom:1px solid #eef0f4; font-size:14px; white-space:nowrap; }
+    th { background:var(--soft); color:#374151; font-weight:750; }
+    tr:last-child td { border-bottom:0; }
+    .right { text-align:right; }
+    .empty,.error,.ok { margin-top:14px; padding:12px 14px; border-radius:14px; font-size:14px; word-break:break-word; }
+    .empty { background:#fff; border:1px dashed var(--line); color:var(--muted); }
+    .error { background:var(--warnBg); border:1px solid var(--warnLine); color:var(--warnText); }
+    .ok { background:var(--okBg); border:1px solid var(--okLine); color:var(--okText); }
+    code { background:#eef2ff; padding:2px 6px; border-radius:8px; }
+    .pill { display:inline-block; margin-left:6px; padding:2px 8px; border-radius:999px; color:var(--brand); background:var(--brandSoft); font-weight:800; font-size:12px; }
+    @media(max-width:760px){
+      .wrap{padding:14px}
+      .head{display:block}
+      .toolbar{justify-content:flex-start;margin-top:12px}
+      .toolbar .btn{flex:1; min-width:calc(50% - 6px)}
+      input{width:100%; min-width:100%; border-radius:14px}
+      .cards{grid-template-columns:1fr 1fr}
+      .card{padding:14px}
+      .num{font-size:26px}
+      th,td{font-size:13px;padding:10px}
+      .hideMobile{display:none}
+    }
   </style>
 </head>
 <body>
-  <header>
-    <div>
-      <h1>biubiubiu 电脑版数据</h1>
-      <div class="sub">GitHub Pages 静态面板，只读取本仓库 JSON。</div>
-    </div>
-    <div class="toolbar">
-      <input id="dateInput" type="date" />
-      <button id="loadBtn">加载数据</button>
-      <button id="monthBtn" class="secondary">本月汇总</button>
-    </div>
-  </header>
-  <main>
-    <div id="error" class="error"></div>
-    <section class="cards">
-      <div class="card metric"><div class="label">弹幕发送</div><div id="mDanmu" class="value">0</div></div>
-      <div class="card metric"><div class="label">讨论发送</div><div id="mDiscussion" class="value">0</div></div>
-      <div class="card metric"><div class="label">弹幕失败</div><div id="mDanmuFailed" class="value">0</div></div>
-      <div class="card metric"><div class="label">讨论失败</div><div id="mDiscussionFailed" class="value">0</div></div>
-      <div class="card metric"><div class="label">设备数</div><div id="mDevices" class="value">0</div></div>
-    </section>
-    <section class="grid">
-      <div class="card">
-        <h2>按微博昵称统计</h2>
-        <div id="userTable"></div>
+  <div class="wrap">
+    <div class="head">
+      <div>
+        <h1>biubiubiu 电脑版数据</h1>
+        <div class="muted" id="subline">优先读取 <code>latest.json</code>；读取失败时可手动选择日期或月份。</div>
       </div>
-      <div class="card">
-        <h2>按设备统计</h2>
-        <div id="deviceTable"></div>
+      <div class="toolbar">
+        <input id="dateInput" type="date" aria-label="选择日期">
+        <button class="btn primary" type="button" id="loadDayBtn">加载当天</button>
+        <button class="btn" type="button" id="loadMonthBtn">加载本月</button>
+        <button class="btn" type="button" id="refreshBtn">刷新</button>
       </div>
-    </section>
-    <section class="card raw">
-      <h2>原始数据 <span id="sourcePill" class="pill">未加载</span></h2>
-      <pre id="rawJson">{}</pre>
-      <div id="status" class="status"></div>
-    </section>
-  </main>
+    </div>
 
-  <script>
-    const $ = id => document.getElementById(id);
-    const num = v => Number.isFinite(Number(v)) ? Number(v) : 0;
-    const fmt = v => String(Math.round(num(v))).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    const today = new Date();
-    const yyyy = today.getFullYear();
-    const mm = String(today.getMonth() + 1).padStart(2, '0');
-    const dd = String(today.getDate()).padStart(2, '0');
-    $('dateInput').value = `${yyyy}-${mm}-${dd}`;
+    <div id="message"></div>
 
-    const COUNTER_KEYS = {
-      danmuSentToday: ['danmuSentToday', 'danmuSent', 'danmu_sent', 'danmuSentCount'],
-      discussionSentToday: ['discussionSentToday', 'discussionSent', 'discussion_sent', 'discussionSentCount'],
-      danmuFailedToday: ['danmuFailedToday', 'danmuFailed', 'danmu_failed', 'danmuFailedCount'],
-      discussionFailedToday: ['discussionFailedToday', 'discussionFailed', 'discussion_failed', 'discussionFailedCount'],
-      danmuSkippedToday: ['danmuSkippedToday', 'danmuSkipped', 'danmu_skipped', 'danmuSkippedCount']
+    <div class="cards">
+      <div class="card"><div class="label" id="labelUsers">活跃用户</div><div class="num" id="activeUsers">--</div></div>
+      <div class="card"><div class="label" id="labelDevices">活跃设备</div><div class="num" id="activeDevices">--</div></div>
+      <div class="card"><div class="label">弹幕发送</div><div class="num" id="danmuSent">--</div></div>
+      <div class="card"><div class="label">讨论发送</div><div class="num" id="discussionSent">--</div></div>
+    </div>
+
+    <div class="panel">
+      <div class="panelTitle">
+        <h2 id="tableTitle">用户排行</h2>
+        <div class="muted" id="sourceLine"></div>
+      </div>
+      <div class="tableWrap">
+        <table>
+          <thead id="thead"></thead>
+          <tbody id="rows"><tr><td class="muted">暂无数据</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => Number(n || 0).toLocaleString('zh-CN');
+const num = v => Number.isFinite(Number(v)) ? Number(v) : 0;
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const now = new Date();
+const yyyy = now.getFullYear();
+const mm = String(now.getMonth() + 1).padStart(2, '0');
+const dd = String(now.getDate()).padStart(2, '0');
+$('dateInput').value = `${yyyy}-${mm}-${dd}`;
+let lastMode = 'latest';
+
+function setMsg(html, type = 'empty') {
+  $('message').innerHTML = html ? `<div class="${type}">${html}</div>` : '';
+}
+
+async function fetchJson(path) {
+  const normalized = normalizePath(path);
+  const url = `${normalized}${normalized.includes('?') ? '&' : '?'}ts=${Date.now()}`;
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`${normalized}：HTTP ${res.status}`);
+  return res.json();
+}
+
+async function fetchFirst(paths) {
+  const errors = [];
+  for (const path of paths) {
+    try {
+      const json = await fetchJson(path);
+      return { json, path: normalizePath(path) };
+    } catch (err) {
+      errors.push(err.message || String(err));
+    }
+  }
+  throw new Error(errors.join('；'));
+}
+
+function normalizePath(path) {
+  if (!path) return '';
+  if (path.startsWith('./') || path.startsWith('http')) return path;
+  return `./${path}`;
+}
+
+function pathsForLatest() {
+  return [
+    'latest.json',
+    'archive/summary/latest.json',
+    'summary/latest.json'
+  ];
+}
+
+function pathsForDate(date) {
+  const [y, m] = date.split('-');
+  return [
+    `archive/counters/${y}/${m}/${date}.json`,
+    `archive/counters/${date}.json`,
+    `counters/${date}.json`,
+    `data/${date}.json`
+  ];
+}
+
+function pathsForMonth(date) {
+  const [y, m] = date.split('-');
+  const ym = `${y}-${m}`;
+  return [
+    `archive/summary/${y}/${ym}.json`,
+    `archive/summary/${ym}.json`,
+    `summary/${ym}.json`,
+    `monthly/${ym}.json`
+  ];
+}
+
+function counterPathFromLatest(latest) {
+  return latest.latestCounterPath || latest.counterPath || (latest.paths && latest.paths.counter) || '';
+}
+
+function summaryPathFromLatest(latest) {
+  return latest.latestSummaryPath || latest.summaryPath || (latest.paths && latest.paths.summary) || '';
+}
+
+function rowTotal(row) {
+  return num(row.danmuSent) + num(row.discussionSent);
+}
+
+function normalizeDeviceRow(device, fallbackId = '') {
+  return {
+    deviceHash: device.deviceHash || device.deviceId || fallbackId || '',
+    danmuSent: num(device.danmuSent ?? device.danmuSentToday),
+    discussionSent: num(device.discussionSent ?? device.discussionSentToday),
+    danmuFailed: num(device.danmuFailed ?? device.danmuFailedToday),
+    discussionFailed: num(device.discussionFailed ?? device.discussionFailedToday),
+    danmuSkipped: num(device.danmuSkipped ?? device.danmuSkippedToday),
+    lastSeenAt: device.lastSeenAt || device.updatedAt || '',
+    appVersion: device.appVersion || ''
+  };
+}
+
+function usersFromCounter(counter) {
+  const usersObj = counter && counter.users ? counter.users : {};
+  return Object.entries(usersObj).map(([key, u]) => {
+    const deviceEntries = Object.entries(u.devices || {});
+    const devices = deviceEntries.map(([id, d]) => normalizeDeviceRow(d, id));
+    const activeDevices = num(u.activeDevices) || devices.length;
+    const danmuSent = num(u.danmuSent) || devices.reduce((sum, d) => sum + num(d.danmuSent), 0);
+    const discussionSent = num(u.discussionSent) || devices.reduce((sum, d) => sum + num(d.discussionSent), 0);
+    const danmuFailed = num(u.danmuFailed) || devices.reduce((sum, d) => sum + num(d.danmuFailed), 0);
+    const discussionFailed = num(u.discussionFailed) || devices.reduce((sum, d) => sum + num(d.discussionFailed), 0);
+    const danmuSkipped = num(u.danmuSkipped) || devices.reduce((sum, d) => sum + num(d.danmuSkipped), 0);
+    const lastSeenAt = u.lastSeenAt || devices.reduce((latest, d) => d.lastSeenAt && d.lastSeenAt > latest ? d.lastSeenAt : latest, '');
+    return {
+      weiboNickname: u.weiboNickname || u.weiboUid || key || '未绑定昵称',
+      activeDevices,
+      danmuSent,
+      discussionSent,
+      danmuFailed,
+      discussionFailed,
+      danmuSkipped,
+      totalSent: danmuSent + discussionSent,
+      lastSeenAt
     };
+  }).sort((a, b) => rowTotal(b) - rowTotal(a));
+}
 
-    function pick(obj, keys) {
-      if (!obj || typeof obj !== 'object') return 0;
-      for (const k of keys) if (obj[k] != null) return num(obj[k]);
-      return 0;
+function totalsFromUsers(users) {
+  return users.reduce((acc, u) => {
+    acc.activeUsers += 1;
+    acc.activeDevices += num(u.activeDevices);
+    acc.danmuSent += num(u.danmuSent);
+    acc.discussionSent += num(u.discussionSent);
+    return acc;
+  }, { activeUsers: 0, activeDevices: 0, danmuSent: 0, discussionSent: 0 });
+}
+
+function totalsFromCounter(counter, users) {
+  const totals = counter && counter.totals ? counter.totals : null;
+  if (totals) return {
+    activeUsers: num(totals.activeUsers),
+    activeDevices: num(totals.activeDevices),
+    danmuSent: num(totals.danmuSent),
+    discussionSent: num(totals.discussionSent)
+  };
+  if (counter && counter.summary) return {
+    activeUsers: num(counter.summary.activeUsers),
+    activeDevices: num(counter.summary.activeDevices),
+    danmuSent: num(counter.summary.danmuSent),
+    discussionSent: num(counter.summary.discussionSent)
+  };
+  if (counter && counter.activeUsers != null) return {
+    activeUsers: num(counter.activeUsers),
+    activeDevices: num(counter.activeDevices),
+    danmuSent: num(counter.danmuSent),
+    discussionSent: num(counter.discussionSent)
+  };
+  return totalsFromUsers(users || []);
+}
+
+function renderMetrics(totals, labels = {}) {
+  $('labelUsers').textContent = labels.users || '活跃用户';
+  $('labelDevices').textContent = labels.devices || '活跃设备';
+  $('activeUsers').textContent = fmt(totals.activeUsers);
+  $('activeDevices').textContent = fmt(totals.activeDevices);
+  $('danmuSent').textContent = fmt(totals.danmuSent);
+  $('discussionSent').textContent = fmt(totals.discussionSent);
+}
+
+function renderUserTable(users) {
+  $('tableTitle').textContent = '用户排行';
+  $('thead').innerHTML = `<tr>
+    <th>#</th><th>微博昵称</th><th class="right">设备数</th><th class="right">弹幕</th><th class="right">讨论</th><th class="right">总发送</th><th class="hideMobile">最后上报</th>
+  </tr>`;
+  const rows = (users || []).map((u, i) => `<tr>
+    <td>${i + 1}</td>
+    <td>${esc(u.weiboNickname || '未绑定昵称')}</td>
+    <td class="right">${fmt(u.activeDevices)}</td>
+    <td class="right">${fmt(u.danmuSent)}</td>
+    <td class="right">${fmt(u.discussionSent)}</td>
+    <td class="right"><b>${fmt(u.totalSent ?? rowTotal(u))}</b></td>
+    <td class="hideMobile">${esc(u.lastSeenAt || '')}</td>
+  </tr>`).join('');
+  $('rows').innerHTML = rows || '<tr><td colspan="7" class="muted">暂无数据</td></tr>';
+}
+
+function renderDay(counter, path) {
+  const users = usersFromCounter(counter);
+  const totals = totalsFromCounter(counter, users);
+  renderMetrics(totals);
+  renderUserTable(users);
+  $('subline').innerHTML = `日期：<b>${esc(counter.date || $('dateInput').value || '--')}</b>　更新：${esc(counter.updatedAt || '')}`;
+  $('sourceLine').innerHTML = `<span class="pill">当天</span> ${esc(path || '')}`;
+}
+
+function renderLatest(latest, users, path, counterPath) {
+  const latestAsTotals = {
+    activeUsers: num(latest.activeUsers),
+    activeDevices: num(latest.activeDevices),
+    danmuSent: num(latest.danmuSent),
+    discussionSent: num(latest.discussionSent)
+  };
+  const totals = (users && users.length) ? totalsFromUsers(users) : latestAsTotals;
+  renderMetrics(totals);
+  renderUserTable(users || []);
+  const latestDate = latest.latestDate || latest.date || '--';
+  $('subline').innerHTML = `最新日期：<b>${esc(latestDate)}</b>　更新：${esc(latest.updatedAt || '')}`;
+  $('sourceLine').innerHTML = `<span class="pill">最新</span> ${esc(counterPath || path || '')}`;
+}
+
+function renderMonth(summary, path) {
+  const daysObj = summary.days || {};
+  const days = Array.isArray(daysObj) ? daysObj : Object.values(daysObj);
+  days.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+  const totals = days.reduce((acc, d) => {
+    acc.activeUsers += num(d.activeUsers);
+    acc.activeDevices += num(d.activeDevices);
+    acc.danmuSent += num(d.danmuSent);
+    acc.discussionSent += num(d.discussionSent);
+    return acc;
+  }, { activeUsers: 0, activeDevices: 0, danmuSent: 0, discussionSent: 0 });
+  renderMetrics(totals, { users: '用户日活合计', devices: '设备日活合计' });
+  $('tableTitle').textContent = '每日汇总';
+  $('thead').innerHTML = `<tr>
+    <th>日期</th><th class="right">用户</th><th class="right">设备</th><th class="right">弹幕</th><th class="right">讨论</th><th class="right">总发送</th><th class="hideMobile">最后上报</th>
+  </tr>`;
+  $('rows').innerHTML = days.map(d => `<tr>
+    <td>${esc(d.date || '')}</td>
+    <td class="right">${fmt(d.activeUsers)}</td>
+    <td class="right">${fmt(d.activeDevices)}</td>
+    <td class="right">${fmt(d.danmuSent)}</td>
+    <td class="right">${fmt(d.discussionSent)}</td>
+    <td class="right"><b>${fmt(num(d.danmuSent) + num(d.discussionSent))}</b></td>
+    <td class="hideMobile">${esc(d.lastSeenAt || d.updatedAt || '')}</td>
+  </tr>`).join('') || '<tr><td colspan="7" class="muted">暂无数据</td></tr>';
+  $('subline').innerHTML = `月份：<b>${esc(summary.month || ($('dateInput').value || '').slice(0, 7) || '--')}</b>　更新：${esc(summary.updatedAt || '')}`;
+  $('sourceLine').innerHTML = `<span class="pill">本月</span> ${esc(path || '')}`;
+}
+
+async function loadLatest() {
+  lastMode = 'latest';
+  setMsg('');
+  try {
+    const { json: latest, path } = await fetchFirst(pathsForLatest());
+    let users = Array.isArray(latest.users) ? latest.users : [];
+    const counterPath = counterPathFromLatest(latest);
+    if ((!users || !users.length) && counterPath) {
+      const counter = await fetchJson(counterPath);
+      users = usersFromCounter(counter);
     }
+    renderLatest(latest, users, path, normalizePath(counterPath));
+  } catch (err) {
+    setMsg(`没有读取到最新索引。你仍可选择日期后点击“加载当天”，或点击“加载本月”。错误：${esc(err.message || err)}`, 'error');
+    await loadDay(true);
+  }
+}
 
-    function getCounter(obj, name) { return pick(obj, COUNTER_KEYS[name] || [name]); }
+async function loadDay(silent = false) {
+  lastMode = 'day';
+  if (!silent) setMsg('');
+  const date = $('dateInput').value || `${yyyy}-${mm}-${dd}`;
+  try {
+    const { json, path } = await fetchFirst(pathsForDate(date));
+    renderDay(json, path);
+    if (!silent) setMsg(`已加载 ${esc(date)} 当天数据。`, 'ok');
+  } catch (err) {
+    setMsg(`没有读取到 ${esc(date)} 的当天数据。已尝试：${esc(err.message || err)}`, 'error');
+  }
+}
 
-    function candidatePathsForDate(date) {
-      const [y, m, d] = date.split('-');
-      return [
-        `archive/counters/${y}/${m}/${date}.json`,
-        `archive/counters/${date}.json`,
-        `counters/${date}.json`,
-        `data/${date}.json`,
-        `latest.json`,
-        `summary/latest.json`
-      ];
+async function loadMonth() {
+  lastMode = 'month';
+  setMsg('');
+  const date = $('dateInput').value || `${yyyy}-${mm}-${dd}`;
+  try {
+    const { json, path } = await fetchFirst(pathsForMonth(date));
+    renderMonth(json, path);
+    setMsg(`已加载 ${(date || '').slice(0, 7)} 月度汇总。`, 'ok');
+  } catch (err) {
+    const latestFallbacks = ['latest.json', 'archive/summary/latest.json', 'summary/latest.json'];
+    try {
+      const { json: latest, path: latestPath } = await fetchFirst(latestFallbacks);
+      const summaryPath = summaryPathFromLatest(latest);
+      if (!summaryPath) throw new Error(`${latestPath} 未包含 latestSummaryPath`);
+      const summary = await fetchJson(summaryPath);
+      renderMonth(summary, normalizePath(summaryPath));
+      setMsg(`没有读取到所选月份，已按最新索引加载最近月度汇总。`, 'ok');
+    } catch (fallbackErr) {
+      setMsg(`没有读取到 ${(date || '').slice(0, 7)} 的月度汇总。已尝试：${esc(err.message || err)}；最新索引兜底也失败：${esc(fallbackErr.message || fallbackErr)}`, 'error');
     }
+  }
+}
 
-    function candidatePathsForMonth(date) {
-      const [y, m] = date.split('-');
-      const ym = `${y}-${m}`;
-      return [
-        `archive/summary/${y}/${ym}.json`,
-        `archive/summary/${ym}.json`,
-        `summary/${ym}.json`,
-        `monthly/${ym}.json`,
-        `summary/latest.json`,
-        `latest.json`
-      ];
-    }
+$('loadDayBtn').addEventListener('click', () => loadDay(false));
+$('loadMonthBtn').addEventListener('click', loadMonth);
+$('refreshBtn').addEventListener('click', () => {
+  if (lastMode === 'month') return loadMonth();
+  if (lastMode === 'day') return loadDay(false);
+  return loadLatest();
+});
 
-    async function fetchFirst(paths) {
-      const errors = [];
-      for (const path of paths) {
-        try {
-          const res = await fetch(path + `?t=${Date.now()}`, { cache: 'no-store' });
-          if (!res.ok) throw new Error(`${res.status}`);
-          return { json: await res.json(), path };
-        } catch (err) {
-          errors.push(`${path}: ${err.message || err}`);
-        }
-      }
-      throw new Error(errors.join('；'));
-    }
-
-    async function resolveLatestIndex(json, path, mode) {
-      if (!json || typeof json !== 'object') return { json, path };
-      const target = mode === 'month'
-        ? (json.latestSummaryPath || json.summaryPath)
-        : (json.latestCounterPath || json.counterPath);
-      if (!target || target === path) return { json, path };
-      const res = await fetch(target + `?t=${Date.now()}`, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`${target}: ${res.status}`);
-      return { json: await res.json(), path: `${target}（由 ${path} 指向）` };
-    }
-
-    function flattenRecords(data) {
-      const records = [];
-      const push = (row, context = {}) => {
-        if (!row || typeof row !== 'object') return;
-        const merged = { ...context, ...row };
-        if (Object.keys(COUNTER_KEYS).some(k => getCounter(merged, k) > 0) || merged.deviceId || merged.weiboNickname) records.push(merged);
-      };
-      const walk = (node, context = {}) => {
-        if (!node) return;
-        if (Array.isArray(node)) { node.forEach(x => walk(x, context)); return; }
-        if (typeof node !== 'object') return;
-        if (node.counters && Array.isArray(node.counters)) node.counters.forEach(x => push(x, context));
-        if (node.devices && Array.isArray(node.devices)) node.devices.forEach(x => push(x, context));
-        if (node.records && Array.isArray(node.records)) node.records.forEach(x => push(x, context));
-        if (node.items && Array.isArray(node.items)) node.items.forEach(x => push(x, context));
-        if (node.users && typeof node.users === 'object') {
-          Object.entries(node.users).forEach(([name, val]) => {
-            if (Array.isArray(val)) val.forEach(x => push(x, { ...context, weiboNickname: name }));
-            else push(val, { ...context, weiboNickname: name });
-          });
-        }
-        if (node.days && typeof node.days === 'object') {
-          Object.entries(node.days).forEach(([date, val]) => walk(val, { ...context, date }));
-        }
-        push(node, context);
-      };
-      walk(data);
-      const seen = new Set();
-      return records.filter(row => {
-        const key = JSON.stringify([row.date || '', row.deviceId || '', row.weiboNickname || '', getCounter(row, 'danmuSentToday'), getCounter(row, 'discussionSentToday'), getCounter(row, 'danmuFailedToday'), getCounter(row, 'discussionFailedToday')]);
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      });
-    }
-
-    function aggregate(records, keyGetter) {
-      const map = new Map();
-      for (const row of records) {
-        const key = keyGetter(row) || '未填写';
-        if (!map.has(key)) map.set(key, { key, danmu: 0, discussion: 0, danmuFailed: 0, discussionFailed: 0, skipped: 0, devices: new Set() });
-        const item = map.get(key);
-        item.danmu += getCounter(row, 'danmuSentToday');
-        item.discussion += getCounter(row, 'discussionSentToday');
-        item.danmuFailed += getCounter(row, 'danmuFailedToday');
-        item.discussionFailed += getCounter(row, 'discussionFailedToday');
-        item.skipped += getCounter(row, 'danmuSkippedToday');
-        if (row.deviceId) item.devices.add(row.deviceId);
-      }
-      return [...map.values()].sort((a, b) => (b.danmu + b.discussion) - (a.danmu + a.discussion));
-    }
-
-    function renderTable(rows, titleKey) {
-      if (!rows.length) return '<div class="muted">暂无数据</div>';
-      return `<table><thead><tr><th>${titleKey}</th><th class="right">弹幕</th><th class="right">讨论</th><th class="right">失败</th><th class="right">设备</th></tr></thead><tbody>${rows.map(r => `<tr><td>${escapeHtml(r.key)}</td><td class="right">${fmt(r.danmu)}</td><td class="right">${fmt(r.discussion)}</td><td class="right">${fmt(r.danmuFailed + r.discussionFailed)}</td><td class="right">${fmt(r.devices.size || 0)}</td></tr>`).join('')}</tbody></table>`;
-    }
-
-    function escapeHtml(str) {
-      return String(str ?? '').replace(/[&<>"]/g, s => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[s]));
-    }
-
-    function render(data, path) {
-      const records = flattenRecords(data);
-      const totals = records.reduce((acc, row) => {
-        acc.danmu += getCounter(row, 'danmuSentToday');
-        acc.discussion += getCounter(row, 'discussionSentToday');
-        acc.danmuFailed += getCounter(row, 'danmuFailedToday');
-        acc.discussionFailed += getCounter(row, 'discussionFailedToday');
-        if (row.deviceId) acc.devices.add(row.deviceId);
-        return acc;
-      }, { danmu: 0, discussion: 0, danmuFailed: 0, discussionFailed: 0, devices: new Set() });
-      $('mDanmu').textContent = fmt(totals.danmu);
-      $('mDiscussion').textContent = fmt(totals.discussion);
-      $('mDanmuFailed').textContent = fmt(totals.danmuFailed);
-      $('mDiscussionFailed').textContent = fmt(totals.discussionFailed);
-      $('mDevices').textContent = fmt(totals.devices.size);
-      $('userTable').innerHTML = renderTable(aggregate(records, row => row.weiboNickname || row.nickname || row.user || row.name), '微博昵称');
-      $('deviceTable').innerHTML = renderTable(aggregate(records, row => row.deviceId), '设备');
-      $('rawJson').textContent = JSON.stringify(data, null, 2);
-      $('sourcePill').textContent = path;
-      $('status').textContent = `读取 ${records.length} 条记录，更新时间：${new Date().toLocaleString()}`;
-      $('error').style.display = 'none';
-    }
-
-    async function load(mode = 'day') {
-      $('status').textContent = '正在加载……';
-      $('error').style.display = 'none';
-      const date = $('dateInput').value || `${yyyy}-${mm}-${dd}`;
-      const paths = mode === 'month' ? candidatePathsForMonth(date) : candidatePathsForDate(date);
-      try {
-        const first = await fetchFirst(paths);
-        const { json, path } = await resolveLatestIndex(first.json, first.path, mode);
-        render(json, path);
-      } catch (err) {
-        $('error').style.display = 'block';
-        $('error').textContent = '没有读取到数据文件。已尝试路径：' + (err.message || err);
-        $('status').textContent = '请确认 Render 写入的 JSON 路径，必要时在 index.html 中调整 candidatePathsForDate / candidatePathsForMonth。';
-      }
-    }
-
-    $('loadBtn').addEventListener('click', () => load('day'));
-    $('monthBtn').addEventListener('click', () => load('month'));
-    load('day');
-  </script>
+loadLatest();
+</script>
 </body>
 </html>
