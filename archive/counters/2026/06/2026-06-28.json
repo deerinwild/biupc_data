@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "updatedAt": "2026-07-01T11:32:43.561Z",
+  "updatedAt": "2026-07-01T11:38:01.568Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -2718,13 +2718,24 @@
           "lastSeenAt": "2026-06-29T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-28T15:59:45.809Z"
+        },
+        "124ce2665189c1c589afb169b7cc01dc0eeefb394ddcddc3f4972398d1e808a6": {
+          "deviceHash": "124ce2665189",
+          "danmuSent": 2882,
+          "discussionSent": 2261,
+          "danmuFailed": 0,
+          "discussionFailed": 521,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-28T15:59:57.267Z"
         }
       },
-      "activeDevices": 6,
-      "danmuSent": 14714,
-      "discussionSent": 14157,
+      "activeDevices": 7,
+      "danmuSent": 17596,
+      "discussionSent": 16418,
       "danmuFailed": 0,
-      "discussionFailed": 419,
+      "discussionFailed": 940,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-29T15:59:59.999Z"
     },
@@ -2826,6 +2837,29 @@
       "discussionSent": 715,
       "danmuFailed": 0,
       "discussionFailed": 460,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-29T15:59:59.999Z"
+    },
+    "少管我好吗g": {
+      "weiboNickname": "少管我好吗g",
+      "devices": {
+        "a5e23800ec51ae7f30b09cde38c3ef286dc3c6eb64a5d9f0a4d66f2b19d5cd17": {
+          "deviceHash": "a5e23800ec51",
+          "danmuSent": 1697,
+          "discussionSent": 4008,
+          "danmuFailed": 0,
+          "discussionFailed": 11,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-28T15:53:00.461Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1697,
+      "discussionSent": 4008,
+      "danmuFailed": 0,
+      "discussionFailed": 11,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-29T15:59:59.999Z"
     }
