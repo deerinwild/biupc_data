@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "updatedAt": "2026-07-01T12:30:56.900Z",
+  "updatedAt": "2026-07-01T12:36:15.290Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -460,13 +460,24 @@
           "lastSeenAt": "2026-06-29T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-28T09:11:32.003Z"
+        },
+        "2c8925cba7616d55e09c2d1ca6cfac8543d870f5922db93c0f50b06feba91f3f": {
+          "deviceHash": "2c8925cba761",
+          "danmuSent": 0,
+          "discussionSent": 140,
+          "danmuFailed": 0,
+          "discussionFailed": 2,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:47.333Z"
         }
       },
-      "activeDevices": 11,
+      "activeDevices": 12,
       "danmuSent": 127335,
-      "discussionSent": 2042,
+      "discussionSent": 2182,
       "danmuFailed": 0,
-      "discussionFailed": 324,
+      "discussionFailed": 326,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-29T15:59:59.999Z"
     },
@@ -2162,13 +2173,24 @@
           "lastSeenAt": "2026-06-29T15:59:59.999Z",
           "appVersion": "1.13.0",
           "clientTimestamp": "2026-06-28T15:56:56.741Z"
+        },
+        "c7c97d9a0cc7e0589d78882fbc165e20a304ac4d773dc37a60d696734724a743": {
+          "deviceHash": "c7c97d9a0cc7",
+          "danmuSent": 0,
+          "discussionSent": 859,
+          "danmuFailed": 0,
+          "discussionFailed": 2,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-28T15:59:59.918Z"
         }
       },
-      "activeDevices": 3,
+      "activeDevices": 4,
       "danmuSent": 371,
-      "discussionSent": 2313,
+      "discussionSent": 3172,
       "danmuFailed": 0,
-      "discussionFailed": 49,
+      "discussionFailed": 51,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-29T15:59:59.999Z"
     },
