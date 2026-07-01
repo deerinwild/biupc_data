@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-07-01T15:58:24.422Z",
+  "updatedAt": "2026-07-01T16:03:45.299Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -796,10 +796,54 @@
           "lastSeenAt": "2026-06-27T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-26T15:59:59.328Z"
+        },
+        "5a136271e17494fee6f1f5ade2bdf61b9521a5a95d60671577afcc0dd1b46e7a": {
+          "deviceHash": "5a136271e174",
+          "danmuSent": 9879,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T15:59:56.643Z"
+        },
+        "8e1dde97a39f05522ba670e5b40868dff5d1ce66feeb70128be62ba5b204a294": {
+          "deviceHash": "8e1dde97a39f",
+          "danmuSent": 4133,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T15:59:56.345Z"
+        },
+        "590fcf94704727f0d056a2edd20d77287d47831076b862e102a08cfeb766e224": {
+          "deviceHash": "590fcf947047",
+          "danmuSent": 3735,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T15:59:55.212Z"
+        },
+        "bd86676035428fe3c8e3216fd375d392d4eadb1d684cd41130b6b735e4b81275": {
+          "deviceHash": "bd8667603542",
+          "danmuSent": 3781,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T15:59:55.324Z"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 11372,
+      "activeDevices": 5,
+      "danmuSent": 32900,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
