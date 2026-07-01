@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "updatedAt": "2026-07-01T15:21:06.376Z",
+  "updatedAt": "2026-07-01T15:26:25.514Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -4598,6 +4598,52 @@
       "activeDevices": 1,
       "danmuSent": 144,
       "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-30T15:59:59.999Z"
+    },
+    "北海西西西柚": {
+      "weiboNickname": "北海西西西柚",
+      "devices": {
+        "c5bc55048fdd3fcff9f96e52ddf801cc42361c7afa3fe246730773bb80920f7b": {
+          "deviceHash": "c5bc55048fdd",
+          "danmuSent": 1823,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-30T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-29T03:42:48.976Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1823,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-30T15:59:59.999Z"
+    },
+    "躺尸的竹逐驻猪": {
+      "weiboNickname": "躺尸的竹逐驻猪",
+      "devices": {
+        "9165a886e0935cd2d1578ba71d72ba51e2aacb2b594597db2674a8ce6e8048f9": {
+          "deviceHash": "9165a886e093",
+          "danmuSent": 5929,
+          "discussionSent": 150,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-30T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-29T15:55:02.874Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 5929,
+      "discussionSent": 150,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
