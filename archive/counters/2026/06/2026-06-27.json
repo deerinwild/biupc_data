@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "updatedAt": "2026-07-01T10:02:50.742Z",
+  "updatedAt": "2026-07-01T10:08:07.939Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -15,10 +15,32 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-27T15:59:59.774Z"
+        },
+        "445a59df445272eb2a4f7d292bd2a9d653e4d6a11118bce9a0946f417193abca": {
+          "deviceHash": "445a59df4452",
+          "danmuSent": 53,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-26T16:31:24.058Z"
+        },
+        "d94592ce4c291b68eba341e3bc12759d3a7b5a9fe1a19d259df9a727022ff54c": {
+          "deviceHash": "d94592ce4c29",
+          "danmuSent": 11988,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:53.332Z"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 10747,
+      "activeDevices": 3,
+      "danmuSent": 22788,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -60,10 +82,54 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-27T15:59:10.917Z"
+        },
+        "5dd459074e4f276e30a40d93bba0b32f70828131d7d559dfb3ad90d6ae714510": {
+          "deviceHash": "5dd459074e4f",
+          "danmuSent": 13284,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:58:40.977Z"
+        },
+        "e2278f9f8049376d4b95ed88c05c1589ceaf7f40306456698e0d065f3a023bdb": {
+          "deviceHash": "e2278f9f8049",
+          "danmuSent": 13664,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:34.424Z"
+        },
+        "de6e8ca94c92e54f1241cbf7a7c049c01a154f94140b21396fe2849d6d16b2d6": {
+          "deviceHash": "de6e8ca94c92",
+          "danmuSent": 13457,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:57.900Z"
+        },
+        "5596d3b1348ca158f3e65c7a85874298d34af91cdc30343980085bcad9f2c7e4": {
+          "deviceHash": "5596d3b1348c",
+          "danmuSent": 17245,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:56.961Z"
         }
       },
-      "activeDevices": 3,
-      "danmuSent": 43838,
+      "activeDevices": 7,
+      "danmuSent": 101488,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -195,10 +261,65 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-27T15:59:59.872Z"
+        },
+        "5a1a8dc6ef7ec573162562911415b102b6e7d234b96a8f4fb309b7edea7302f9": {
+          "deviceHash": "5a1a8dc6ef7e",
+          "danmuSent": 14375,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:56.294Z"
+        },
+        "1b70fc59b6d5839df4037cfddb737d0f2ee937e23546cb3273aa33c38f0b5c64": {
+          "deviceHash": "1b70fc59b6d5",
+          "danmuSent": 14368,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:59.605Z"
+        },
+        "edb0fae66227b111aab95acb50a5003fcd3b98fe932d5b514c707db0158a937f": {
+          "deviceHash": "edb0fae66227",
+          "danmuSent": 14375,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:54.585Z"
+        },
+        "b5b6ca0d8e4f429037a2e0571c37f3a358a4b21c3e39eafac34df7c42141bf8f": {
+          "deviceHash": "b5b6ca0d8e4f",
+          "danmuSent": 14375,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:57.658Z"
+        },
+        "f9b2193b9b47db08ac876391f1b8367e6c680b83d536f56f48f10f318480b82f": {
+          "deviceHash": "f9b2193b9b47",
+          "danmuSent": 14373,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:59.978Z"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 28546,
+      "activeDevices": 6,
+      "danmuSent": 100412,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -251,10 +372,43 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-27T15:59:55.070Z"
+        },
+        "8a6a8c2a28b474844a9677b6b6632e1c1a4b1dfd5b23d5795c6a0f14dacce7a6": {
+          "deviceHash": "8a6a8c2a28b4",
+          "danmuSent": 8419,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:45:58.507Z"
+        },
+        "b0007f44b9f1127e1c072ba49d336d5febc2eac7ed145bcd1b06121da200d132": {
+          "deviceHash": "b0007f44b9f1",
+          "danmuSent": 8432,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:45:27.395Z"
+        },
+        "b21c4fe4b935a42c10890a648ca1940e26f431adbd16bb41f355a609cd8f1502": {
+          "deviceHash": "b21c4fe4b935",
+          "danmuSent": 9428,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:58:03.378Z"
         }
       },
-      "activeDevices": 4,
-      "danmuSent": 36094,
+      "activeDevices": 7,
+      "danmuSent": 62373,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -341,10 +495,21 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-27T03:52:10.777Z"
+        },
+        "07719ac5c7c27c3ecc623caf55c7eb57a420a96d3d65d770e262811ea18357d8": {
+          "deviceHash": "07719ac5c7c2",
+          "danmuSent": 4205,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T14:17:56.119Z"
         }
       },
-      "activeDevices": 5,
-      "danmuSent": 20620,
+      "activeDevices": 6,
+      "danmuSent": 24825,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -386,11 +551,33 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-27T15:59:48.817Z"
+        },
+        "c0dbb7b92085effbb1993015e4416cb7db65039af3687fe6dc9f898a880c69b2": {
+          "deviceHash": "c0dbb7b92085",
+          "danmuSent": 592,
+          "discussionSent": 300,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:45.756Z"
+        },
+        "6ee6e72a5c1327d9c860705b248d4b73575c3566503da805837e2040eebee3be": {
+          "deviceHash": "6ee6e72a5c13",
+          "danmuSent": 7150,
+          "discussionSent": 300,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:40.486Z"
         }
       },
-      "activeDevices": 3,
-      "danmuSent": 15527,
-      "discussionSent": 600,
+      "activeDevices": 5,
+      "danmuSent": 23269,
+      "discussionSent": 1200,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
@@ -455,10 +642,43 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.11.0",
           "clientTimestamp": "2026-06-27T15:59:58.734Z"
+        },
+        "34156b3c86aec20f297ee7ca3e7126a4fcf90ab8a2e2307f3ff4b459b0169243": {
+          "deviceHash": "34156b3c86ae",
+          "danmuSent": 14893,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.0",
+          "clientTimestamp": "2026-06-27T15:59:57.466Z"
+        },
+        "c79f389804268b3d9551d7f7bdd1a283ac97eb72e70d9e8da1e9fb22ce9bff97": {
+          "deviceHash": "c79f38980426",
+          "danmuSent": 17153,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.0",
+          "clientTimestamp": "2026-06-27T15:59:58.142Z"
+        },
+        "069f1d63bc648229590dc8aedf1f136e0554e0eda7a034d9a40acf0091246cdb": {
+          "deviceHash": "069f1d63bc64",
+          "danmuSent": 14445,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.0",
+          "clientTimestamp": "2026-06-27T15:59:55.175Z"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 17216,
+      "activeDevices": 4,
+      "danmuSent": 63707,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -524,10 +744,21 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-27T15:59:48.369Z"
+        },
+        "fe9a012e40a42b805b3676e64f91de9c215608fbe5814b5bd1e37bed07c9dea8": {
+          "deviceHash": "fe9a012e40a4",
+          "danmuSent": 5517,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:47.001Z"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 5693,
+      "activeDevices": 2,
+      "danmuSent": 11210,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -657,6 +888,221 @@
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "三小只之77": {
+      "weiboNickname": "三小只之77",
+      "devices": {
+        "01071e7c3737096104073a37fba9edf8dedac5de53045feeae4592e6c94b7f6a": {
+          "deviceHash": "01071e7c3737",
+          "danmuSent": 10420,
+          "discussionSent": 150,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:58:12.032Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 10420,
+      "discussionSent": 150,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "萝菠头儿": {
+      "weiboNickname": "萝菠头儿",
+      "devices": {
+        "655d931758cb69d94d826accbd9fc16970c39601f7306643723e5610cde7439c": {
+          "deviceHash": "655d931758cb",
+          "danmuSent": 5412,
+          "discussionSent": 300,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:56:04.981Z"
+        },
+        "cc04c02846b8e7edbcf42db02755bc767a734371dd293365e7da7316d36cb776": {
+          "deviceHash": "cc04c02846b8",
+          "danmuSent": 6205,
+          "discussionSent": 476,
+          "danmuFailed": 0,
+          "discussionFailed": 113,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:51.361Z"
+        },
+        "2879d881b0ced488bd5935e390fa913c1fbbcc62279ed1e3ef5739f30c78302a": {
+          "deviceHash": "2879d881b0ce",
+          "danmuSent": 5000,
+          "discussionSent": 597,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:58.345Z"
+        },
+        "f907cb6f8f5328995b82fb75915a7e4ab51095ba370ab163f2c66fdddb48d937": {
+          "deviceHash": "f907cb6f8f53",
+          "danmuSent": 3466,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 181,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:42.727Z"
+        },
+        "5184a502a5f0f35e41d08674e878f9afddb76f68f4eca316b05f253c46f85487": {
+          "deviceHash": "5184a502a5f0",
+          "danmuSent": 2152,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 246,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:43.092Z"
+        },
+        "81548731d24b9fbec6da94c84ce4abb3a2221cc00528a668c59683981e3ec6c3": {
+          "deviceHash": "81548731d24b",
+          "danmuSent": 3467,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 171,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:54.563Z"
+        },
+        "d086604a2c134889b46ba7556b2c2342c1694f4bf88e04f55c8471ba996e2eb5": {
+          "deviceHash": "d086604a2c13",
+          "danmuSent": 6797,
+          "discussionSent": 300,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:59.383Z"
+        }
+      },
+      "activeDevices": 7,
+      "danmuSent": 32499,
+      "discussionSent": 1673,
+      "danmuFailed": 0,
+      "discussionFailed": 711,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "千里同归-檀": {
+      "weiboNickname": "千里同归-檀",
+      "devices": {
+        "cdd3cdcfeefa7274d4603cf411a79121df0ee7dac70e3be920750621ccb9cbd1": {
+          "deviceHash": "cdd3cdcfeefa",
+          "danmuSent": 5608,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:54:28.420Z"
+        },
+        "7c6fe2ff7a28520fa64f7154120f8deda9f9305968e0388093d5c5a862b1187d": {
+          "deviceHash": "7c6fe2ff7a28",
+          "danmuSent": 4940,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:59:48.381Z"
+        }
+      },
+      "activeDevices": 2,
+      "danmuSent": 10548,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "香辣HooHoo": {
+      "weiboNickname": "香辣HooHoo",
+      "devices": {
+        "47a47d62ca0c6ad95d1e491d03be2bbbeb72612a45b40318ab9e00bf2ed26582": {
+          "deviceHash": "47a47d62ca0c",
+          "danmuSent": 2546,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:47.872Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 2546,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "三宝子檀HooHoo": {
+      "weiboNickname": "三宝子檀HooHoo",
+      "devices": {
+        "ed762e435ef4d135f0c92e862653a2de82c9067508abba4cf8d57c308c56ab81": {
+          "deviceHash": "ed762e435ef4",
+          "danmuSent": 4213,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T13:14:38.997Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 4213,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "sunflower_0813": {
+      "weiboNickname": "sunflower_0813",
+      "devices": {
+        "9397697488ebf1822a2719df45ad761a08281cf489b333e3493e01a9de0bca94": {
+          "deviceHash": "9397697488eb",
+          "danmuSent": 4664,
+          "discussionSent": 88,
+          "danmuFailed": 0,
+          "discussionFailed": 39,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T14:55:00.799Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 4664,
+      "discussionSent": 88,
+      "danmuFailed": 0,
+      "discussionFailed": 39,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-28T15:59:59.999Z"
     }
