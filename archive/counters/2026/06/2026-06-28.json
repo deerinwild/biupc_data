@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "updatedAt": "2026-07-01T16:08:59.983Z",
+  "updatedAt": "2026-07-01T16:14:19.366Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -493,10 +493,21 @@
           "lastSeenAt": "2026-06-29T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-28T15:59:59.689Z"
+        },
+        "ca9692b696dc66c049963be9090163f8eed35aed279e3e5512f581198896527f": {
+          "deviceHash": "ca9692b696dc",
+          "danmuSent": 14369,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:54.262Z"
         }
       },
-      "activeDevices": 14,
-      "danmuSent": 169969,
+      "activeDevices": 15,
+      "danmuSent": 184338,
       "discussionSent": 2182,
       "danmuFailed": 0,
       "discussionFailed": 326,
@@ -1288,10 +1299,32 @@
           "lastSeenAt": "2026-06-29T15:59:59.999Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-06-28T15:59:52.788Z"
+        },
+        "7ff3e6bcd89a8ce019b793a46783e4f229b4dd5b873a2223131b8bf4679481de": {
+          "deviceHash": "7ff3e6bcd89a",
+          "danmuSent": 10724,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:59.297Z"
+        },
+        "80b80bcf89bf60f59377093ab6cff4c01d89e98258ace76cfa95b59d66c2ad0f": {
+          "deviceHash": "80b80bcf89bf",
+          "danmuSent": 12043,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-29T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-28T15:59:58.747Z"
         }
       },
-      "activeDevices": 7,
-      "danmuSent": 79225,
+      "activeDevices": 9,
+      "danmuSent": 101992,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
