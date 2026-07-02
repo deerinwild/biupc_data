@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "updatedAt": "2026-07-02T01:46:01.005Z",
+  "updatedAt": "2026-07-02T01:51:18.446Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -1402,7 +1402,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-01T14:51:47.122Z",
+          "lastSeenAt": "2026-07-02T15:59:59.999Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-01T12:04:26.311Z"
         }
@@ -4185,7 +4185,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-01T10:49:37.203Z",
+          "lastSeenAt": "2026-07-02T15:59:59.999Z",
           "appVersion": "1.13.0",
           "clientTimestamp": "2026-07-01T06:15:25.939Z"
         },
@@ -6284,6 +6284,29 @@
       "discussionSent": 34,
       "danmuFailed": 0,
       "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-02T15:59:59.999Z"
+    },
+    "蜡笔小新的长颈鹿": {
+      "weiboNickname": "蜡笔小新的长颈鹿",
+      "devices": {
+        "72b85e380d58ff56f45d184da55a66840a4b3a0085d3fad8221fba1e16cb2bb8": {
+          "deviceHash": "72b85e380d58",
+          "danmuSent": 1081,
+          "discussionSent": 238,
+          "danmuFailed": 0,
+          "discussionFailed": 2,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-02T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-07-01T09:29:13.463Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1081,
+      "discussionSent": 238,
+      "danmuFailed": 0,
+      "discussionFailed": 2,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-02T15:59:59.999Z"
     }
