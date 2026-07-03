@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-07-03T16:16:50.403Z",
+  "updatedAt": "2026-07-03T16:22:09.722Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -2421,6 +2421,29 @@
       },
       "activeDevices": 1,
       "danmuSent": 2590,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-27T15:59:59.999Z"
+    },
+    "焕醒的CD机-HooHoo": {
+      "weiboNickname": "焕醒的CD机-HooHoo",
+      "devices": {
+        "18262ea183757946bf48c899090ada429143b6129b66ca9bada26ad6da062a57": {
+          "deviceHash": "18262ea18375",
+          "danmuSent": 542,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T15:32:24.824Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 542,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
