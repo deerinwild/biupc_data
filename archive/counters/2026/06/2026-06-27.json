@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "updatedAt": "2026-07-04T05:38:37.491Z",
+  "updatedAt": "2026-07-04T05:43:57.273Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -1559,13 +1559,24 @@
           "lastSeenAt": "2026-06-28T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-27T15:59:59.798Z"
+        },
+        "ccca815450aba514cb4c6c42cfd6f96ba6840c2a9f7d9bf39f361a3071ec7dcd": {
+          "deviceHash": "ccca815450ab",
+          "danmuSent": 7153,
+          "discussionSent": 4,
+          "danmuFailed": 0,
+          "discussionFailed": 107,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:59:57.060Z"
         }
       },
-      "activeDevices": 5,
-      "danmuSent": 34758,
-      "discussionSent": 341,
+      "activeDevices": 6,
+      "danmuSent": 41911,
+      "discussionSent": 345,
       "danmuFailed": 0,
-      "discussionFailed": 354,
+      "discussionFailed": 461,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-28T15:59:59.999Z"
     },
@@ -2573,6 +2584,29 @@
       "discussionSent": 598,
       "danmuFailed": 0,
       "discussionFailed": 1,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "7个嘟": {
+      "weiboNickname": "7个嘟",
+      "devices": {
+        "f25d06bc3c3f36da36d75b247091e7083d724a204ba31230774a751a7e4a62d1": {
+          "deviceHash": "f25d06bc3c3f",
+          "danmuSent": 898,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-27T15:13:11.053Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 898,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-06-28T15:59:59.999Z"
     }
