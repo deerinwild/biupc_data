@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "updatedAt": "2026-07-04T10:26:43.361Z",
+  "updatedAt": "2026-07-04T10:32:03.548Z",
   "users": {
     "喵星人的大佬": {
       "weiboNickname": "喵星人的大佬",
@@ -753,14 +753,14 @@
       "devices": {
         "ae011d050b1a1f51e1730b1cded9414776dee90f06d9fb662f633453fbcc3aa0": {
           "deviceHash": "ae011d050b1a",
-          "danmuSent": 15498,
+          "danmuSent": 15558,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
           "lastSeenAt": "2026-07-04T15:59:59.999Z",
           "appVersion": "1.11.3",
-          "clientTimestamp": "2026-07-03T09:40:50.244Z"
+          "clientTimestamp": "2026-07-03T09:43:50.580Z"
         },
         "a1327eb5347559ac8ad53377631e5b310a50b718c15d21ca3471009ada3c8c12": {
           "deviceHash": "a1327eb53475",
@@ -830,7 +830,7 @@
         }
       },
       "activeDevices": 7,
-      "danmuSent": 101361,
+      "danmuSent": 101421,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
