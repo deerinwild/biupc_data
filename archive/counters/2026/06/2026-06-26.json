@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-07-05T00:23:03.654Z",
+  "updatedAt": "2026-07-05T00:28:25.825Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -704,10 +704,21 @@
           "lastSeenAt": "2026-06-27T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-06-26T15:59:49.880Z"
+        },
+        "dbe75e942e2c151a42bf13c0692a67be5b87abd99fdf63f009c466731e8ccab9": {
+          "deviceHash": "dbe75e942e2c",
+          "danmuSent": 1073,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-26T15:59:51.525Z"
         }
       },
-      "activeDevices": 9,
-      "danmuSent": 25831,
+      "activeDevices": 10,
+      "danmuSent": 26904,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
