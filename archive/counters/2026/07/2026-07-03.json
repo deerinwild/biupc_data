@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "updatedAt": "2026-07-06T01:02:42.010Z",
+  "updatedAt": "2026-07-06T01:08:05.141Z",
   "users": {
     "喵星人的大佬": {
       "weiboNickname": "喵星人的大佬",
@@ -3888,17 +3888,6 @@
     "檀健次": {
       "weiboNickname": "檀健次",
       "devices": {
-        "635ec950921cc33bb84e9ad3f51e63aed058e763a8e35383c9c490f5c8ad14e2": {
-          "deviceHash": "635ec950921c",
-          "danmuSent": 2870,
-          "discussionSent": 0,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-04T15:59:59.999Z",
-          "appVersion": "1.13.0",
-          "clientTimestamp": "2026-07-03T09:55:41.543Z"
-        },
         "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
           "deviceHash": "261905d71bb5",
           "danmuSent": 2636,
@@ -3922,8 +3911,8 @@
           "clientTimestamp": "2026-07-03T14:32:14.702Z"
         }
       },
-      "activeDevices": 3,
-      "danmuSent": 8822,
+      "activeDevices": 2,
+      "danmuSent": 5952,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -5168,6 +5157,29 @@
       "activeDevices": 1,
       "danmuSent": 0,
       "discussionSent": 1,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-04T15:59:59.999Z"
+    },
+    "猪咪软乎乎": {
+      "weiboNickname": "猪咪软乎乎",
+      "devices": {
+        "635ec950921cc33bb84e9ad3f51e63aed058e763a8e35383c9c490f5c8ad14e2": {
+          "deviceHash": "635ec950921c",
+          "danmuSent": 2870,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-04T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-07-03T09:55:41.543Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 2870,
+      "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
