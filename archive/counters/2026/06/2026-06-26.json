@@ -1,6 +1,6 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-07-06T00:30:35.055Z",
+  "updatedAt": "2026-07-06T00:35:57.602Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -2500,6 +2500,62 @@
       },
       "activeDevices": 1,
       "danmuSent": 7,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-27T15:59:59.999Z"
+    },
+    "小猫次次次鱼": {
+      "weiboNickname": "小猫次次次鱼",
+      "devices": {
+        "ae3f4d395c9a6b3653a8e404d8b10e388aa84d101f5c89179121674bbed269df": {
+          "deviceHash": "ae3f4d395c9a",
+          "danmuSent": 9343,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T09:16:38.883Z"
+        },
+        "a536cbf686b4eb07901d1191d5313c08aa257e18636c669e11a67d895df6602f": {
+          "deviceHash": "a536cbf686b4",
+          "danmuSent": 9217,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T09:16:37.038Z"
+        },
+        "b6722c20df493ba312301b4182e8e43de58b62e3253538545e391185e70597b5": {
+          "deviceHash": "b6722c20df49",
+          "danmuSent": 7253,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T09:16:36.570Z"
+        },
+        "f1fe28e6ce9766fb37583445d547da774b1c767b1627f900a3bb0de310bde02b": {
+          "deviceHash": "f1fe28e6ce97",
+          "danmuSent": 9990,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-27T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-06-26T09:16:37.946Z"
+        }
+      },
+      "activeDevices": 4,
+      "danmuSent": 35803,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
