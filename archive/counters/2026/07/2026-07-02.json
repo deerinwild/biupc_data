@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "updatedAt": "2026-07-06T01:02:43.588Z",
+  "updatedAt": "2026-07-06T01:08:06.679Z",
   "users": {
     "青梅": {
       "weiboNickname": "青梅",
@@ -1631,17 +1631,6 @@
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-02T12:28:28.473Z"
         },
-        "635ec950921cc33bb84e9ad3f51e63aed058e763a8e35383c9c490f5c8ad14e2": {
-          "deviceHash": "635ec950921c",
-          "danmuSent": 2908,
-          "discussionSent": 0,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-03T15:59:59.999Z",
-          "appVersion": "1.13.0",
-          "clientTimestamp": "2026-07-02T09:57:11.497Z"
-        },
         "69f41af8c1b67dee0ddde9c77de0ed8f059f6c0c4d429d0f3710b6cea09d2991": {
           "deviceHash": "69f41af8c1b6",
           "danmuSent": 2,
@@ -1687,8 +1676,8 @@
           "clientTimestamp": "2026-07-02T12:50:14.643Z"
         }
       },
-      "activeDevices": 9,
-      "danmuSent": 8156,
+      "activeDevices": 8,
+      "danmuSent": 5248,
       "discussionSent": 849,
       "danmuFailed": 0,
       "discussionFailed": 57,
@@ -5977,6 +5966,29 @@
       },
       "activeDevices": 1,
       "danmuSent": 632,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-03T15:59:59.999Z"
+    },
+    "猪咪软乎乎": {
+      "weiboNickname": "猪咪软乎乎",
+      "devices": {
+        "635ec950921cc33bb84e9ad3f51e63aed058e763a8e35383c9c490f5c8ad14e2": {
+          "deviceHash": "635ec950921c",
+          "danmuSent": 2908,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-03T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-07-02T09:57:11.497Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 2908,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
