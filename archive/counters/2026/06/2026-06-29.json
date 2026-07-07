@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "updatedAt": "2026-07-07T14:39:14.969Z",
+  "updatedAt": "2026-07-07T14:44:46.179Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -3424,11 +3424,22 @@
           "lastSeenAt": "2026-06-30T15:59:59.999Z",
           "appVersion": "1.13.0",
           "clientTimestamp": "2026-06-29T15:59:56.641Z"
+        },
+        "d72367172a2a1caf15892a3d962ec945327cfa1b3e892bb92411b471e76a3963": {
+          "deviceHash": "d72367172a2a",
+          "danmuSent": 1688,
+          "discussionSent": 1192,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-30T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-06-28T23:07:07.855Z"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 3486,
-      "discussionSent": 2249,
+      "activeDevices": 3,
+      "danmuSent": 5174,
+      "discussionSent": 3441,
       "danmuFailed": 0,
       "discussionFailed": 1,
       "danmuSkipped": 0,
