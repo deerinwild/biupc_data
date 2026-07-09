@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "updatedAt": "2026-07-09T06:39:02.154Z",
+  "updatedAt": "2026-07-09T06:44:31.582Z",
   "users": {
     "檀屿漫游": {
       "weiboNickname": "檀屿漫游",
@@ -3975,17 +3975,6 @@
     "檀健次": {
       "weiboNickname": "檀健次",
       "devices": {
-        "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
-          "deviceHash": "261905d71bb5",
-          "danmuSent": 3381,
-          "discussionSent": 0,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-02T15:59:59.999Z",
-          "appVersion": "1.14.0",
-          "clientTimestamp": "2026-07-01T15:59:57.888Z"
-        },
         "61131eeeae2ba92befa7c6e6e376389c246a15843580df550f90dcfcf1727193": {
           "deviceHash": "61131eeeae2b",
           "danmuSent": 1666,
@@ -4075,8 +4064,8 @@
           "clientTimestamp": "2026-07-01T15:58:22.020Z"
         }
       },
-      "activeDevices": 9,
-      "danmuSent": 6652,
+      "activeDevices": 8,
+      "danmuSent": 3271,
       "discussionSent": 3580,
       "danmuFailed": 0,
       "discussionFailed": 7,
@@ -6623,6 +6612,29 @@
       "activeDevices": 1,
       "danmuSent": 0,
       "discussionSent": 128,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-02T15:59:59.999Z"
+    },
+    "枂JT": {
+      "weiboNickname": "枂JT",
+      "devices": {
+        "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
+          "deviceHash": "261905d71bb5",
+          "danmuSent": 3381,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-02T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-01T15:59:57.888Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 3381,
+      "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
