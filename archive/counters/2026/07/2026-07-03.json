@@ -1,6 +1,6 @@
 {
   "date": "2026-07-03",
-  "updatedAt": "2026-07-09T06:38:59.036Z",
+  "updatedAt": "2026-07-09T06:44:27.833Z",
   "users": {
     "喵星人的大佬": {
       "weiboNickname": "喵星人的大佬",
@@ -3888,17 +3888,6 @@
     "檀健次": {
       "weiboNickname": "檀健次",
       "devices": {
-        "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
-          "deviceHash": "261905d71bb5",
-          "danmuSent": 2636,
-          "discussionSent": 0,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-04T15:59:59.999Z",
-          "appVersion": "1.14.0",
-          "clientTimestamp": "2026-07-03T12:47:36.219Z"
-        },
         "850c95414166137deb52d4a3bf5bcd1e2b3cc9c32316f809279c798c5de9294f": {
           "deviceHash": "850c95414166",
           "danmuSent": 3316,
@@ -3911,8 +3900,8 @@
           "clientTimestamp": "2026-07-03T14:32:14.702Z"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 5952,
+      "activeDevices": 1,
+      "danmuSent": 3316,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
@@ -5179,6 +5168,29 @@
       },
       "activeDevices": 1,
       "danmuSent": 2870,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-04T15:59:59.999Z"
+    },
+    "枂JT": {
+      "weiboNickname": "枂JT",
+      "devices": {
+        "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
+          "deviceHash": "261905d71bb5",
+          "danmuSent": 2636,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-04T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-03T12:47:36.219Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 2636,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
