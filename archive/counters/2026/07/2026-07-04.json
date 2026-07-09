@@ -1,6 +1,6 @@
 {
   "date": "2026-07-04",
-  "updatedAt": "2026-07-09T06:38:57.522Z",
+  "updatedAt": "2026-07-09T06:44:26.068Z",
   "users": {
     "爆炒糖浆吃JC-T": {
       "weiboNickname": "爆炒糖浆吃JC-T",
@@ -3550,17 +3550,6 @@
     "檀健次": {
       "weiboNickname": "檀健次",
       "devices": {
-        "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
-          "deviceHash": "261905d71bb5",
-          "danmuSent": 1174,
-          "discussionSent": 1076,
-          "danmuFailed": 0,
-          "discussionFailed": 558,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-05T15:59:59.999Z",
-          "appVersion": "1.14.0",
-          "clientTimestamp": "2026-07-04T15:28:42.542Z"
-        },
         "850c95414166137deb52d4a3bf5bcd1e2b3cc9c32316f809279c798c5de9294f": {
           "deviceHash": "850c95414166",
           "danmuSent": 528,
@@ -3573,11 +3562,11 @@
           "clientTimestamp": "2026-07-04T11:00:12.119Z"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 1702,
-      "discussionSent": 1076,
+      "activeDevices": 1,
+      "danmuSent": 528,
+      "discussionSent": 0,
       "danmuFailed": 0,
-      "discussionFailed": 558,
+      "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-05T15:59:59.999Z"
     },
@@ -4849,6 +4838,29 @@
       "discussionSent": 300,
       "danmuFailed": 0,
       "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-05T15:59:59.999Z"
+    },
+    "枂JT": {
+      "weiboNickname": "枂JT",
+      "devices": {
+        "261905d71bb5642eea9927d0164b67ce1c4a4bb93f921a777bbc7eaa4888b8de": {
+          "deviceHash": "261905d71bb5",
+          "danmuSent": 1174,
+          "discussionSent": 1076,
+          "danmuFailed": 0,
+          "discussionFailed": 558,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-05T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-04T15:28:42.542Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1174,
+      "discussionSent": 1076,
+      "danmuFailed": 0,
+      "discussionFailed": 558,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-05T15:59:59.999Z"
     }
