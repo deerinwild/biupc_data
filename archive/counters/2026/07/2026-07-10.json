@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "updatedAt": "2026-07-11T05:53:11.779Z",
+  "updatedAt": "2026-07-11T05:58:38.878Z",
   "users": {
     "永远的乐观仔": {
       "weiboNickname": "永远的乐观仔",
@@ -5516,6 +5516,29 @@
       },
       "activeDevices": 1,
       "danmuSent": 429,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-11T15:59:59.999Z"
+    },
+    "奇迹HooHoo": {
+      "weiboNickname": "奇迹HooHoo",
+      "devices": {
+        "b990fbbe59c821954c5f9a6b786b3ced3d02ce9abda327a86116dec1369c97dc": {
+          "deviceHash": "b990fbbe59c8",
+          "danmuSent": 1,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-11T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-10T05:53:35.723Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
