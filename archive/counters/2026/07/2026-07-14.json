@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "updatedAt": "2026-07-16T01:30:33.721Z",
+  "updatedAt": "2026-07-16T01:36:05.820Z",
   "users": {
     "西_小调": {
       "weiboNickname": "西_小调",
@@ -3312,6 +3312,52 @@
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-15T15:59:59.999Z"
+    },
+    "蜡笔小新的长颈鹿": {
+      "weiboNickname": "蜡笔小新的长颈鹿",
+      "devices": {
+        "f62b5d67fccc61d5a7303a313e2d57a1b26bf45946ee43ec636caa1a35f6a10d": {
+          "deviceHash": "f62b5d67fccc",
+          "danmuSent": 237,
+          "discussionSent": 920,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-15T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-14T09:28:59.597Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 237,
+      "discussionSent": 920,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-15T15:59:59.999Z"
+    },
+    "到了冬天就打盹儿": {
+      "weiboNickname": "到了冬天就打盹儿",
+      "devices": {
+        "b5e0ece669959733657156bd2bae2bdadece2f0e34c4f9fc0121a9c78c31c91b": {
+          "deviceHash": "b5e0ece66995",
+          "danmuSent": 1635,
+          "discussionSent": 962,
+          "danmuFailed": 0,
+          "discussionFailed": 65,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-15T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-07-14T11:47:47.100Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1635,
+      "discussionSent": 962,
+      "danmuFailed": 0,
+      "discussionFailed": 65,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-15T15:59:59.999Z"
     }
