@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "updatedAt": "2026-07-16T14:15:12.107Z",
+  "updatedAt": "2026-07-16T14:20:49.920Z",
   "users": {
     "西_小调": {
       "weiboNickname": "西_小调",
@@ -1143,15 +1143,26 @@
           "lastSeenAt": "2026-07-15T13:18:50.114Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-07-15T11:32:54.195Z"
+        },
+        "843873025f1391d13a4fd7716db63619464e142c3277ddb40f20f85eccb70b51": {
+          "deviceHash": "843873025f13",
+          "danmuSent": 601,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-16T15:59:59.999Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-07-15T13:41:23.139Z"
         }
       },
-      "activeDevices": 1,
-      "danmuSent": 4,
+      "activeDevices": 2,
+      "danmuSent": 605,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-15T13:18:50.114Z"
+      "lastSeenAt": "2026-07-16T15:59:59.999Z"
     },
     "偷走月亮的蛋卷": {
       "weiboNickname": "偷走月亮的蛋卷",
