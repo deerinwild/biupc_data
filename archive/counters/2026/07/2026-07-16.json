@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "updatedAt": "2026-07-18T16:45:49.351Z",
+  "updatedAt": "2026-07-18T16:51:25.210Z",
   "users": {
     "爆炒糖浆吃JC-T": {
       "weiboNickname": "爆炒糖浆吃JC-T",
@@ -3412,6 +3412,29 @@
       "discussionSent": 1073,
       "danmuFailed": 0,
       "discussionFailed": 138,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-17T15:59:59.999Z"
+    },
+    "棠迹赐相思": {
+      "weiboNickname": "棠迹赐相思",
+      "devices": {
+        "2f64f97be224f0dc892f313c3ae355e2db626b1a347187b3bac5a8786025986f": {
+          "deviceHash": "2f64f97be224",
+          "danmuSent": 79,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-17T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-15T16:04:55.028Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 79,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-17T15:59:59.999Z"
     }
