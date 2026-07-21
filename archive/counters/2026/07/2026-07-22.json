@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "updatedAt": "2026-07-21T16:02:00.135Z",
+  "updatedAt": "2026-07-21T16:07:39.406Z",
   "users": {
     "奶油蘑菇T-HooHoo": {
       "weiboNickname": "奶油蘑菇T-HooHoo",
@@ -24,6 +24,75 @@
       "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-21T16:01:00.353Z"
+    },
+    "Nor_a": {
+      "weiboNickname": "Nor_a",
+      "devices": {
+        "20dfa21a1ad42c758c0c3a7c0ed58c537d07148cfde9faaa7afc38b24eb61042": {
+          "deviceHash": "20dfa21a1ad4",
+          "danmuSent": 23,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-21T16:03:54.316Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-07-21T16:03:48.705Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 23,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-21T16:03:54.316Z"
+    },
+    "甜豆的T-Hoohoo": {
+      "weiboNickname": "甜豆的T-Hoohoo",
+      "devices": {
+        "5e000bb623b2f300ae188eaa88b1190e3fad7ed0b9f1c3737f9cefdafb389ac3": {
+          "deviceHash": "5e000bb623b2",
+          "danmuSent": 100,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-21T16:04:05.688Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-21T16:04:05.461Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 100,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-21T16:04:05.688Z"
+    },
+    "西_小调": {
+      "weiboNickname": "西_小调",
+      "devices": {
+        "d137fdea1eccd3b6d6216158dcb2e721e5e0bbc2de6d0c415de687dd00ff1993": {
+          "deviceHash": "d137fdea1ecc",
+          "danmuSent": 29,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-21T16:04:58.707Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-07-21T16:04:47.965Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 29,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-21T16:04:58.707Z"
     }
   }
 }
