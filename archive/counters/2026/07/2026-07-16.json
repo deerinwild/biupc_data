@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "updatedAt": "2026-07-23T23:17:18.380Z",
+  "updatedAt": "2026-07-23T23:22:53.128Z",
   "users": {
     "爆炒糖浆吃JC-T": {
       "weiboNickname": "爆炒糖浆吃JC-T",
@@ -1983,17 +1983,6 @@
     "日落寄Hoo风": {
       "weiboNickname": "日落寄Hoo风",
       "devices": {
-        "c4a42c31352adc2a3a1fdc154086d0f0a2740f52749357847dff6ab8dd1345c8": {
-          "deviceHash": "c4a42c31352a",
-          "danmuSent": 7615,
-          "discussionSent": 574,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-17T15:59:59.999Z",
-          "appVersion": "1.14.0",
-          "clientTimestamp": "2026-07-16T15:59:54.865Z"
-        },
         "549e84f1452f70d9e84983ddebfa3d0d50666522f9df41ad08e873563f13bf40": {
           "deviceHash": "549e84f1452f",
           "danmuSent": 2854,
@@ -2072,9 +2061,9 @@
           "clientTimestamp": "2026-07-16T15:59:43.695Z"
         }
       },
-      "activeDevices": 8,
-      "danmuSent": 31743,
-      "discussionSent": 7355,
+      "activeDevices": 7,
+      "danmuSent": 24128,
+      "discussionSent": 6781,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
@@ -3433,6 +3422,29 @@
       "activeDevices": 1,
       "danmuSent": 79,
       "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-17T15:59:59.999Z"
+    },
+    "日落寄海风HooHoo": {
+      "weiboNickname": "日落寄海风HooHoo",
+      "devices": {
+        "c4a42c31352adc2a3a1fdc154086d0f0a2740f52749357847dff6ab8dd1345c8": {
+          "deviceHash": "c4a42c31352a",
+          "danmuSent": 7615,
+          "discussionSent": 574,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-17T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-16T15:59:54.865Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 7615,
+      "discussionSent": 574,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
