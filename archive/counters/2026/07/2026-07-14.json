@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "updatedAt": "2026-07-24T22:43:26.443Z",
+  "updatedAt": "2026-07-24T22:48:58.716Z",
   "users": {
     "西_小调": {
       "weiboNickname": "西_小调",
@@ -2592,10 +2592,32 @@
           "lastSeenAt": "2026-07-15T15:59:59.999Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-14T14:29:09.918Z"
+        },
+        "c8371f59eae55a874173546f2a1db2b90e7d731a54c9377d1df397b2822d350d": {
+          "deviceHash": "c8371f59eae5",
+          "danmuSent": 1735,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-15T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-14T14:52:52.280Z"
+        },
+        "2ad66d54f07d6362fc8fe385f758dd0d9a56e5f2766a39d118de6487a2609e71": {
+          "deviceHash": "2ad66d54f07d",
+          "danmuSent": 1844,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-15T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-14T14:54:49.881Z"
         }
       },
-      "activeDevices": 7,
-      "danmuSent": 31431,
+      "activeDevices": 9,
+      "danmuSent": 35010,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
