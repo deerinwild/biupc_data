@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "updatedAt": "2026-07-26T00:16:05.308Z",
+  "updatedAt": "2026-07-26T00:21:40.867Z",
   "users": {
     "不会起昵称jc": {
       "weiboNickname": "不会起昵称jc",
@@ -30,14 +30,14 @@
       "devices": {
         "20dfa21a1ad42c758c0c3a7c0ed58c537d07148cfde9faaa7afc38b24eb61042": {
           "deviceHash": "20dfa21a1ad4",
-          "danmuSent": 2869,
+          "danmuSent": 2969,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-26T00:04:15.813Z",
+          "lastSeenAt": "2026-07-26T00:20:29.220Z",
           "appVersion": "1.11.3",
-          "clientTimestamp": "2026-07-26T00:03:47.840Z"
+          "clientTimestamp": "2026-07-26T00:20:28.642Z"
         },
         "7e3d905eada3ac6d8ed0e284de180200884f69aedfcebe718aca935f421e97c9": {
           "deviceHash": "7e3d905eada3",
@@ -74,14 +74,14 @@
         },
         "d9e4d1dca79dcad86c9f353772e3019c2f04d263c2a4becbda8fc2718e84447a": {
           "deviceHash": "d9e4d1dca79d",
-          "danmuSent": 2735,
+          "danmuSent": 2835,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-26T00:04:34.099Z",
+          "lastSeenAt": "2026-07-26T00:18:01.116Z",
           "appVersion": "1.11.3",
-          "clientTimestamp": "2026-07-26T00:04:33.538Z"
+          "clientTimestamp": "2026-07-26T00:18:00.639Z"
         },
         "8a6a8c2a28b474844a9677b6b6632e1c1a4b1dfd5b23d5795c6a0f14dacce7a6": {
           "deviceHash": "8a6a8c2a28b4",
@@ -118,12 +118,12 @@
         }
       },
       "activeDevices": 8,
-      "danmuSent": 21707,
+      "danmuSent": 21907,
       "discussionSent": 360,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-26T00:15:43.583Z"
+      "lastSeenAt": "2026-07-26T00:20:29.220Z"
     },
     "Tomino星球": {
       "weiboNickname": "Tomino星球",
@@ -340,7 +340,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-25T23:38:22.138Z",
+          "lastSeenAt": "2026-07-26T00:21:01.390Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-25T23:35:54.460Z"
         },
@@ -384,7 +384,7 @@
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-26T00:14:54.575Z"
+      "lastSeenAt": "2026-07-26T00:21:01.390Z"
     },
     "Sluggedcoud": {
       "weiboNickname": "Sluggedcoud",
@@ -396,7 +396,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-25T23:38:21.763Z",
+          "lastSeenAt": "2026-07-26T00:18:55.685Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-25T23:33:48.064Z"
         }
@@ -407,7 +407,7 @@
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-25T23:38:21.763Z"
+      "lastSeenAt": "2026-07-26T00:18:55.685Z"
     },
     "吃不到蟠桃": {
       "weiboNickname": "吃不到蟠桃",
@@ -694,15 +694,26 @@
           "lastSeenAt": "2026-07-26T00:09:33.197Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-26T00:09:33.407Z"
+        },
+        "703ae1aa56678f26a323859454289e3e62763c0e46c4cb33502b61cfa6e3421f": {
+          "deviceHash": "703ae1aa5667",
+          "danmuSent": 0,
+          "discussionSent": 100,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-26T00:17:36.312Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-26T00:17:36.456Z"
         }
       },
-      "activeDevices": 1,
+      "activeDevices": 2,
       "danmuSent": 0,
-      "discussionSent": 100,
+      "discussionSent": 200,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-26T00:09:33.197Z"
+      "lastSeenAt": "2026-07-26T00:17:36.312Z"
     }
   }
 }
