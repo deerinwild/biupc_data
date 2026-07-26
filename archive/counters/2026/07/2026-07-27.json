@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "updatedAt": "2026-07-26T21:05:37.651Z",
+  "updatedAt": "2026-07-26T21:11:10.465Z",
   "users": {
     "不会起昵称jc": {
       "weiboNickname": "不会起昵称jc",
@@ -75,14 +75,14 @@
         },
         "7e3d905eada3ac6d8ed0e284de180200884f69aedfcebe718aca935f421e97c9": {
           "deviceHash": "7e3d905eada3",
-          "danmuSent": 2000,
+          "danmuSent": 2100,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-26T20:53:59.190Z",
+          "lastSeenAt": "2026-07-26T21:09:38.164Z",
           "appVersion": "1.11.3",
-          "clientTimestamp": "2026-07-26T20:53:37.418Z"
+          "clientTimestamp": "2026-07-26T21:09:16.563Z"
         },
         "8a6a8c2a28b474844a9677b6b6632e1c1a4b1dfd5b23d5795c6a0f14dacce7a6": {
           "deviceHash": "8a6a8c2a28b4",
@@ -119,12 +119,12 @@
         }
       },
       "activeDevices": 6,
-      "danmuSent": 10819,
+      "danmuSent": 10919,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-26T21:04:39.961Z"
+      "lastSeenAt": "2026-07-26T21:09:38.164Z"
     },
     "Tomino星球": {
       "weiboNickname": "Tomino星球",
@@ -159,7 +159,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-26T20:09:49.505Z",
+          "lastSeenAt": "2026-07-26T21:10:10.761Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-26T16:09:42.483Z"
         }
@@ -170,7 +170,7 @@
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-26T20:09:49.505Z"
+      "lastSeenAt": "2026-07-26T21:10:10.761Z"
     },
     "小刺猬是宝邶": {
       "weiboNickname": "小刺猬是宝邶",
@@ -255,14 +255,14 @@
         },
         "bd72c69db7f107dd71069adc0840c7967af63733965bf881a8d229798bf5307e": {
           "deviceHash": "bd72c69db7f1",
-          "danmuSent": 1744,
+          "danmuSent": 1844,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-26T20:54:15.583Z",
+          "lastSeenAt": "2026-07-26T21:10:54.492Z",
           "appVersion": "1.14.0",
-          "clientTimestamp": "2026-07-26T20:54:31.169Z"
+          "clientTimestamp": "2026-07-26T21:11:11.167Z"
         },
         "5a1a8dc6ef7ec573162562911415b102b6e7d234b96a8f4fb309b7edea7302f9": {
           "deviceHash": "5a1a8dc6ef7e",
@@ -299,12 +299,12 @@
         }
       },
       "activeDevices": 6,
-      "danmuSent": 5301,
+      "danmuSent": 5401,
       "discussionSent": 563,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-26T21:02:34.322Z"
+      "lastSeenAt": "2026-07-26T21:10:54.492Z"
     },
     "偷走月亮的蛋卷": {
       "weiboNickname": "偷走月亮的蛋卷",
@@ -646,6 +646,29 @@
       "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-26T19:26:54.682Z"
+    },
+    "奇奇舞": {
+      "weiboNickname": "奇奇舞",
+      "devices": {
+        "417dee06d43d060d6141ea9240e16a16c9545d0ebeb695dca0f6bfc640144510": {
+          "deviceHash": "417dee06d43d",
+          "danmuSent": 0,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-26T21:09:08.786Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-26T21:09:06.085Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-26T21:09:08.786Z"
     }
   }
 }
