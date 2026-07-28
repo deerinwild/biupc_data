@@ -1,6 +1,6 @@
 {
   "date": "2026-07-10",
-  "updatedAt": "2026-07-28T14:44:19.222Z",
+  "updatedAt": "2026-07-28T14:50:02.875Z",
   "users": {
     "永远的乐观仔": {
       "weiboNickname": "永远的乐观仔",
@@ -3659,17 +3659,6 @@
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-07-09T21:01:43.310Z"
         },
-        "8bcf315e58ccfd499563ca341869dbd6f44d5660f5fdc633d194c84db80f3b08": {
-          "deviceHash": "8bcf315e58cc",
-          "danmuSent": 0,
-          "discussionSent": 1243,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-11T15:59:59.999Z",
-          "appVersion": "1.12.2",
-          "clientTimestamp": "2026-07-09T21:26:37.973Z"
-        },
         "b582b9fbe0f12dfafc975f80b31dbdf64c227051c3948ea6021e5f2f0b0accfb": {
           "deviceHash": "b582b9fbe0f1",
           "danmuSent": 0,
@@ -3682,9 +3671,9 @@
           "clientTimestamp": "2026-07-09T21:25:05.513Z"
         }
       },
-      "activeDevices": 4,
+      "activeDevices": 3,
       "danmuSent": 0,
-      "discussionSent": 2190,
+      "discussionSent": 947,
       "danmuFailed": 0,
       "discussionFailed": 1447,
       "danmuSkipped": 0,
@@ -3814,11 +3803,22 @@
           "lastSeenAt": "2026-07-11T15:59:59.999Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-10T15:56:51.560Z"
+        },
+        "8bcf315e58ccfd499563ca341869dbd6f44d5660f5fdc633d194c84db80f3b08": {
+          "deviceHash": "8bcf315e58cc",
+          "danmuSent": 0,
+          "discussionSent": 1243,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-11T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-07-09T21:26:37.973Z"
         }
       },
-      "activeDevices": 9,
+      "activeDevices": 10,
       "danmuSent": 882,
-      "discussionSent": 6906,
+      "discussionSent": 8149,
       "danmuFailed": 0,
       "discussionFailed": 2604,
       "danmuSkipped": 0,
