@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "updatedAt": "2026-07-27T23:41:26.650Z",
+  "updatedAt": "2026-07-29T17:02:42.626Z",
   "users": {
     "西_小调": {
       "weiboNickname": "西_小调",
@@ -4630,24 +4630,13 @@
           "lastSeenAt": "2026-07-06T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-07-05T15:59:22.176Z"
-        },
-        "8bcf315e58ccfd499563ca341869dbd6f44d5660f5fdc633d194c84db80f3b08": {
-          "deviceHash": "8bcf315e58cc",
-          "danmuSent": 0,
-          "discussionSent": 1321,
-          "danmuFailed": 0,
-          "discussionFailed": 3,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-06T15:59:59.999Z",
-          "appVersion": "1.12.2",
-          "clientTimestamp": "2026-07-05T15:59:56.554Z"
         }
       },
-      "activeDevices": 4,
+      "activeDevices": 3,
       "danmuSent": 5103,
-      "discussionSent": 5800,
+      "discussionSent": 4479,
       "danmuFailed": 0,
-      "discussionFailed": 227,
+      "discussionFailed": 224,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-06T15:59:59.999Z"
     },
@@ -4898,13 +4887,24 @@
           "lastSeenAt": "2026-07-06T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-07-05T15:59:56.967Z"
+        },
+        "8bcf315e58ccfd499563ca341869dbd6f44d5660f5fdc633d194c84db80f3b08": {
+          "deviceHash": "8bcf315e58cc",
+          "danmuSent": 0,
+          "discussionSent": 1321,
+          "danmuFailed": 0,
+          "discussionFailed": 3,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-06T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-07-05T15:59:56.554Z"
         }
       },
-      "activeDevices": 6,
+      "activeDevices": 7,
       "danmuSent": 5896,
-      "discussionSent": 6930,
+      "discussionSent": 8251,
       "danmuFailed": 0,
-      "discussionFailed": 297,
+      "discussionFailed": 300,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-06T15:59:59.999Z"
     },
