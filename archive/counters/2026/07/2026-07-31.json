@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-31",
+  "updatedAt": "2026-07-30T16:00:48.447Z",
+  "users": {
+    "偷走月亮的蛋卷": {
+      "weiboNickname": "偷走月亮的蛋卷",
+      "devices": {
+        "05a8f331aa21c9e36a2e1a3869c993e5935089e018171e51aad843fe48f9ef14": {
+          "deviceHash": "05a8f331aa21",
+          "danmuSent": 0,
+          "discussionSent": 1,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-30T16:00:26.827Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-30T16:00:05.312Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 1,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-30T16:00:26.827Z"
+    },
+    "小阿呆": {
+      "weiboNickname": "小阿呆",
+      "devices": {
+        "4d72b634e2f7311eecc96f2e5b063701eac6c448b336018442d2e81fe9d003fa": {
+          "deviceHash": "4d72b634e2f7",
+          "danmuSent": 0,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 2,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-30T16:00:33.103Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-30T16:00:24.087Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 2,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-30T16:00:33.103Z"
+    }
+  }
+}
