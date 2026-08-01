@@ -1,6 +1,6 @@
 {
   "date": "2026-07-11",
-  "updatedAt": "2026-08-01T12:28:11.946Z",
+  "updatedAt": "2026-08-01T19:27:57.920Z",
   "users": {
     "Rebecca-Joe": {
       "weiboNickname": "Rebecca-Joe",
@@ -4257,29 +4257,6 @@
           "lastSeenAt": "2026-07-12T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-07-11T13:23:00.187Z"
-        }
-      },
-      "activeDevices": 3,
-      "danmuSent": 6916,
-      "discussionSent": 0,
-      "danmuFailed": 0,
-      "discussionFailed": 0,
-      "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-12T15:59:59.999Z"
-    },
-    "912身边有人": {
-      "weiboNickname": "912身边有人",
-      "devices": {
-        "773b3e4d73ddf4790fd422ca0c4f7cdc505b0c1068dcfaf916c345abc360839a": {
-          "deviceHash": "773b3e4d73dd",
-          "danmuSent": 1756,
-          "discussionSent": 0,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-12T15:59:59.999Z",
-          "appVersion": "1.12.2",
-          "clientTimestamp": "2026-07-11T13:23:02.184Z"
         },
         "342cbd7e5668ba9d2db23be2f2e71e2dcb0f787260dbdb18cb00203620b6c321": {
           "deviceHash": "342cbd7e5668",
@@ -4291,10 +4268,21 @@
           "lastSeenAt": "2026-07-12T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-07-11T13:22:58.182Z"
+        },
+        "773b3e4d73ddf4790fd422ca0c4f7cdc505b0c1068dcfaf916c345abc360839a": {
+          "deviceHash": "773b3e4d73dd",
+          "danmuSent": 1756,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-12T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-07-11T13:23:02.184Z"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 3841,
+      "activeDevices": 5,
+      "danmuSent": 10757,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
