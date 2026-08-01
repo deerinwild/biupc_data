@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-02",
+  "updatedAt": "2026-08-01T16:03:09.461Z",
+  "users": {
+    "无可无不可320": {
+      "weiboNickname": "无可无不可320",
+      "devices": {
+        "309e3de4005cf6646981aabddb47266087c7b728435fddf75c8afd911a674251": {
+          "deviceHash": "309e3de4005c",
+          "danmuSent": 0,
+          "discussionSent": 1,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-01T16:01:20.694Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-01T16:00:29.271Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 1,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-01T16:01:20.694Z"
+    },
+    "甜豆的T-Hoohoo": {
+      "weiboNickname": "甜豆的T-Hoohoo",
+      "devices": {
+        "5e000bb623b2f300ae188eaa88b1190e3fad7ed0b9f1c3737f9cefdafb389ac3": {
+          "deviceHash": "5e000bb623b2",
+          "danmuSent": 0,
+          "discussionSent": 100,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-01T16:01:45.917Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-01T16:01:46.158Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 100,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-01T16:01:45.917Z"
+    },
+    "oinyolo": {
+      "weiboNickname": "oinyolo",
+      "devices": {
+        "9e0886dbe2bb8121c48ebf5f7fc6b391d517c53e63ff58a45eb4e0d93c78968f": {
+          "deviceHash": "9e0886dbe2bb",
+          "danmuSent": 10,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-01T16:02:29.589Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-01T16:02:28.067Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 10,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-01T16:02:29.589Z"
+    }
+  }
+}
