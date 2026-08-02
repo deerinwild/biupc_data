@@ -1,0 +1,52 @@
+{
+  "date": "2026-08-03",
+  "updatedAt": "2026-08-02T16:03:10.125Z",
+  "users": {
+    "奇奇舞": {
+      "weiboNickname": "奇奇舞",
+      "devices": {
+        "7d8e8b417b007bd68ac7a91092e9a65e1c1fe176bcc808922f6564ad22da816d": {
+          "deviceHash": "7d8e8b417b00",
+          "danmuSent": 0,
+          "discussionSent": 4,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-02T16:01:33.523Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-02T16:00:42.625Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 4,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-02T16:01:33.523Z"
+    },
+    "甜豆的T-Hoohoo": {
+      "weiboNickname": "甜豆的T-Hoohoo",
+      "devices": {
+        "5e000bb623b2f300ae188eaa88b1190e3fad7ed0b9f1c3737f9cefdafb389ac3": {
+          "deviceHash": "5e000bb623b2",
+          "danmuSent": 0,
+          "discussionSent": 100,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-02T16:02:33.368Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-02T16:02:34.663Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 100,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-02T16:02:33.368Z"
+    }
+  }
+}
