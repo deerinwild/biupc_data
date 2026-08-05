@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-05T16:13:00.478Z",
+  "updatedAt": "2026-08-05T16:18:40.929Z",
   "users": {
     "Nor_a": {
       "weiboNickname": "Nor_a",
@@ -133,23 +133,23 @@
       "devices": {
         "9fbff2a97f27845254aa74c8f821201371f06af545bd7455fbfa1094ff2c620c": {
           "deviceHash": "9fbff2a97f27",
-          "danmuSent": 7,
-          "discussionSent": 93,
+          "danmuSent": 23,
+          "discussionSent": 182,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-08-05T16:08:03.554Z",
+          "lastSeenAt": "2026-08-05T16:16:12.429Z",
           "appVersion": "1.14.0",
-          "clientTimestamp": "2026-08-05T16:08:03.152Z"
+          "clientTimestamp": "2026-08-05T16:16:11.034Z"
         }
       },
       "activeDevices": 1,
-      "danmuSent": 7,
-      "discussionSent": 93,
+      "danmuSent": 23,
+      "discussionSent": 182,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-08-05T16:08:03.554Z"
+      "lastSeenAt": "2026-08-05T16:16:12.429Z"
     },
     "巧克力": {
       "weiboNickname": "巧克力",
@@ -196,6 +196,155 @@
       "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-08-05T16:11:25.766Z"
+    },
+    "萝菠头儿": {
+      "weiboNickname": "萝菠头儿",
+      "devices": {
+        "0dda923b42b14c28bf885b7834727447ad72ad8e664b152102e7bfcfb0839edc": {
+          "deviceHash": "0dda923b42b1",
+          "danmuSent": 0,
+          "discussionSent": 47,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:14:39.034Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-05T16:14:32.413Z"
+        },
+        "eeec666a30e318a546f42799ff507389640a2f6b1de18778dacbefe74302b6ce": {
+          "deviceHash": "eeec666a30e3",
+          "danmuSent": 0,
+          "discussionSent": 53,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:15:19.270Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-05T16:15:11.274Z"
+        }
+      },
+      "activeDevices": 2,
+      "danmuSent": 0,
+      "discussionSent": 100,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-05T16:15:19.270Z"
+    },
+    "到了冬天就打盹儿": {
+      "weiboNickname": "到了冬天就打盹儿",
+      "devices": {
+        "9177bdb087035b939bbafafb0811c85b45069ba7fb1b6f6dc7e93dee830ed6a4": {
+          "deviceHash": "9177bdb08703",
+          "danmuSent": 100,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:15:29.794Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-08-05T16:15:30.006Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 100,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-05T16:15:29.794Z"
+    },
+    "檀屿漫游": {
+      "weiboNickname": "檀屿漫游",
+      "devices": {
+        "a1e39ed7321f26561d72b2da74a03bd22f6cb162a396852e304478f133b5ebf7": {
+          "deviceHash": "a1e39ed7321f",
+          "danmuSent": 0,
+          "discussionSent": 55,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:15:50.191Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-05T16:15:19.024Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 55,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-05T16:15:50.191Z"
+    },
+    "加油小狐狸-": {
+      "weiboNickname": "加油小狐狸-",
+      "devices": {
+        "dfeeb492b85627fdad09071f4b68138a7fe87c252d9e07d527fbd1678d32cc21": {
+          "deviceHash": "dfeeb492b856",
+          "danmuSent": 100,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:16:29.379Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-05T16:16:28.340Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 100,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-05T16:16:29.379Z"
+    },
+    "sunflower_0813": {
+      "weiboNickname": "sunflower_0813",
+      "devices": {
+        "9397697488ebf1822a2719df45ad761a08281cf489b333e3493e01a9de0bca94": {
+          "deviceHash": "9397697488eb",
+          "danmuSent": 100,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:16:35.464Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-08-05T16:16:32.519Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 100,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-05T16:16:35.464Z"
+    },
+    "偷走月亮的蛋卷": {
+      "weiboNickname": "偷走月亮的蛋卷",
+      "devices": {
+        "05a8f331aa21c9e36a2e1a3869c993e5935089e018171e51aad843fe48f9ef14": {
+          "deviceHash": "05a8f331aa21",
+          "danmuSent": 0,
+          "discussionSent": 71,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-05T16:17:29.285Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-05T16:17:23.784Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 71,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-05T16:17:29.285Z"
     }
   }
 }
