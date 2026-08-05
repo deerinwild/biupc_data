@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "updatedAt": "2026-08-04T00:17:34.224Z",
+  "updatedAt": "2026-08-05T17:15:40.916Z",
   "users": {
     "Rebecca-Joe": {
       "weiboNickname": "Rebecca-Joe",
@@ -4080,15 +4080,26 @@
           "lastSeenAt": "2026-07-12T13:47:40.016Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-07-12T13:47:31.128Z"
+        },
+        "7eae22f5064e8cd96e954c0174273eacbe4ed9dd35823c081cfeb68823754f93": {
+          "deviceHash": "7eae22f5064e",
+          "danmuSent": 1,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-13T15:59:59.999Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-07-12T02:08:01.727Z"
         }
       },
-      "activeDevices": 2,
-      "danmuSent": 6564,
+      "activeDevices": 3,
+      "danmuSent": 6565,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-12T13:47:40.016Z"
+      "lastSeenAt": "2026-07-13T15:59:59.999Z"
     },
     "颖尔多多": {
       "weiboNickname": "颖尔多多",
