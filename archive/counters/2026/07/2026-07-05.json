@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "updatedAt": "2026-07-29T21:04:30.348Z",
+  "updatedAt": "2026-08-06T16:03:36.433Z",
   "users": {
     "西_小调": {
       "weiboNickname": "西_小调",
@@ -3386,29 +3386,6 @@
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-06T15:59:59.999Z"
     },
-    "言午同学": {
-      "weiboNickname": "言午同学",
-      "devices": {
-        "60c52a57be852409ebab2177aa255a104f7ac86c78bfe34fab56c46206597abc": {
-          "deviceHash": "60c52a57be85",
-          "danmuSent": 465,
-          "discussionSent": 0,
-          "danmuFailed": 0,
-          "discussionFailed": 0,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-06T15:59:59.999Z",
-          "appVersion": "1.13.0",
-          "clientTimestamp": "2026-07-05T15:59:52.229Z"
-        }
-      },
-      "activeDevices": 1,
-      "danmuSent": 465,
-      "discussionSent": 0,
-      "danmuFailed": 0,
-      "discussionFailed": 0,
-      "danmuSkipped": 0,
-      "lastSeenAt": "2026-07-06T15:59:59.999Z"
-    },
     "我家有个小可爱t": {
       "weiboNickname": "我家有个小可爱t",
       "devices": {
@@ -5755,6 +5732,29 @@
       "discussionSent": 1281,
       "danmuFailed": 0,
       "discussionFailed": 1,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-06T15:59:59.999Z"
+    },
+    "米蕾": {
+      "weiboNickname": "米蕾",
+      "devices": {
+        "60c52a57be852409ebab2177aa255a104f7ac86c78bfe34fab56c46206597abc": {
+          "deviceHash": "60c52a57be85",
+          "danmuSent": 465,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-06T15:59:59.999Z",
+          "appVersion": "1.13.0",
+          "clientTimestamp": "2026-07-05T15:59:52.229Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 465,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-06T15:59:59.999Z"
     }
