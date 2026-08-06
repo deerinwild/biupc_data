@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "updatedAt": "2026-08-06T09:10:46.968Z",
+  "updatedAt": "2026-08-06T09:16:34.195Z",
   "users": {
     "Nor_a": {
       "weiboNickname": "Nor_a",
@@ -48,15 +48,26 @@
           "lastSeenAt": "2026-08-05T16:37:37.931Z",
           "appVersion": "1.11.3",
           "clientTimestamp": "2026-08-05T16:16:04.017Z"
+        },
+        "99767264877693f804fdf5e0d7721794ba55601a0dc240825d4566cf6b1a1764": {
+          "deviceHash": "997672648776",
+          "danmuSent": 0,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-06T09:15:44.816Z",
+          "appVersion": "1.11.3",
+          "clientTimestamp": "2026-08-06T09:15:24.872Z"
         }
       },
-      "activeDevices": 4,
+      "activeDevices": 5,
       "danmuSent": 501,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-08-05T16:37:37.931Z"
+      "lastSeenAt": "2026-08-06T09:15:44.816Z"
     },
     "oinyolo": {
       "weiboNickname": "oinyolo",
@@ -240,7 +251,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-08-06T08:14:40.567Z",
+          "lastSeenAt": "2026-08-06T09:14:40.785Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-08-05T17:04:15.325Z"
         },
@@ -251,7 +262,7 @@
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-08-06T08:15:20.656Z",
+          "lastSeenAt": "2026-08-06T09:15:20.517Z",
           "appVersion": "1.14.0",
           "clientTimestamp": "2026-08-05T17:04:49.550Z"
         },
@@ -295,7 +306,7 @@
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-08-06T08:50:25.527Z"
+      "lastSeenAt": "2026-08-06T09:15:20.517Z"
     },
     "到了冬天就打盹儿": {
       "weiboNickname": "到了冬天就打盹儿",
