@@ -1,6 +1,6 @@
 {
   "date": "2026-06-27",
-  "updatedAt": "2026-07-20T19:58:51.194Z",
+  "updatedAt": "2026-08-07T02:18:36.005Z",
   "users": {
     "78oown": {
       "weiboNickname": "78oown",
@@ -2715,6 +2715,52 @@
       },
       "activeDevices": 2,
       "danmuSent": 2778,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "咋又想换ID了": {
+      "weiboNickname": "咋又想换ID了",
+      "devices": {
+        "86623cd4429b856cc9a6d05c200d88342cbb4a9e963888e9cd3493bb2af654e8": {
+          "deviceHash": "86623cd4429b",
+          "danmuSent": 1691,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:42:11.439Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 1691,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-06-28T15:59:59.999Z"
+    },
+    "黄昏的日落里li": {
+      "weiboNickname": "黄昏的日落里li",
+      "devices": {
+        "f7798f703ae5690b1398d359ab69b868d8553d0b191eaed1fd6db87bbd5ff1dc": {
+          "deviceHash": "f7798f703ae5",
+          "danmuSent": 3427,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-06-28T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-06-27T15:42:27.255Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 3427,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
