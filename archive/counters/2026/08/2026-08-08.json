@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "updatedAt": "2026-08-08T03:42:36.248Z",
+  "updatedAt": "2026-08-08T04:04:34.254Z",
   "users": {
     "到了冬天就打盹儿": {
       "weiboNickname": "到了冬天就打盹儿",
@@ -38,15 +38,26 @@
           "lastSeenAt": "2026-08-08T03:40:56.142Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-08-08T03:38:43.468Z"
+        },
+        "564845d7817fd3c2bce65e57aa4d78364fcca180597eae96e736b8c9ac5a2cc4": {
+          "deviceHash": "564845d7817f",
+          "danmuSent": 0,
+          "discussionSent": 100,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-08T04:00:09.196Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-08-08T04:00:08.546Z"
         }
       },
-      "activeDevices": 1,
+      "activeDevices": 2,
       "danmuSent": 0,
-      "discussionSent": 13,
+      "discussionSent": 113,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-08-08T03:40:56.142Z"
+      "lastSeenAt": "2026-08-08T04:00:09.196Z"
     },
     "巧": {
       "weiboNickname": "巧",
