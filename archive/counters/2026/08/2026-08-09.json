@@ -1,29 +1,29 @@
 {
   "date": "2026-08-09",
-  "updatedAt": "2026-08-09T06:51:04.878Z",
+  "updatedAt": "2026-08-09T06:56:34.388Z",
   "users": {
     "Sluggedcoud": {
       "weiboNickname": "Sluggedcoud",
       "devices": {
         "6f885566a1a1707a8d76c164f8bb2b5052248a42f4eb3a90c77475a7d41ab374": {
           "deviceHash": "6f885566a1a1",
-          "danmuSent": 3485,
+          "danmuSent": 3585,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-08-09T06:29:41.603Z",
+          "lastSeenAt": "2026-08-09T06:54:44.355Z",
           "appVersion": "1.14.0",
-          "clientTimestamp": "2026-08-09T06:29:41.354Z"
+          "clientTimestamp": "2026-08-09T06:54:41.323Z"
         }
       },
       "activeDevices": 1,
-      "danmuSent": 3485,
+      "danmuSent": 3585,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-08-09T06:29:41.603Z"
+      "lastSeenAt": "2026-08-09T06:54:44.355Z"
     },
     "Sluggedcloud": {
       "weiboNickname": "Sluggedcloud",
@@ -63,14 +63,14 @@
         },
         "15e8d75348ef6800498655916985e4f6e7f2ccd5cc4bd36f85fab12d43c0f237": {
           "deviceHash": "15e8d75348ef",
-          "danmuSent": 3295,
+          "danmuSent": 3331,
           "discussionSent": 0,
           "danmuFailed": 0,
           "discussionFailed": 0,
           "danmuSkipped": 0,
-          "lastSeenAt": "2026-08-09T06:46:01.513Z",
+          "lastSeenAt": "2026-08-09T06:54:58.177Z",
           "appVersion": "1.14.0",
-          "clientTimestamp": "2026-08-09T06:45:59.825Z"
+          "clientTimestamp": "2026-08-09T06:54:45.074Z"
         },
         "fd362f6d0acb935a0d87549d48897c28537a08b38feb06315bd0530ee6cae8df": {
           "deviceHash": "fd362f6d0acb",
@@ -85,12 +85,12 @@
         }
       },
       "activeDevices": 5,
-      "danmuSent": 15703,
+      "danmuSent": 15739,
       "discussionSent": 0,
       "danmuFailed": 0,
       "discussionFailed": 0,
       "danmuSkipped": 0,
-      "lastSeenAt": "2026-08-09T06:46:01.513Z"
+      "lastSeenAt": "2026-08-09T06:54:58.177Z"
     }
   }
 }
