@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "updatedAt": "2026-08-10T13:12:54.710Z",
+  "updatedAt": "2026-08-10T13:18:33.935Z",
   "users": {
     "Sluggedcloud": {
       "weiboNickname": "Sluggedcloud",
@@ -1167,24 +1167,13 @@
           "lastSeenAt": "2026-07-30T15:59:59.999Z",
           "appVersion": "1.12.2",
           "clientTimestamp": "2026-07-29T15:57:02.666Z"
-        },
-        "93e0bdf02ef36f9e709d5ae2fe4e448fb3dd0c6a5e5381f6e80c886d0b5b5772": {
-          "deviceHash": "93e0bdf02ef3",
-          "danmuSent": 0,
-          "discussionSent": 1026,
-          "danmuFailed": 0,
-          "discussionFailed": 9,
-          "danmuSkipped": 0,
-          "lastSeenAt": "2026-07-30T15:59:59.999Z",
-          "appVersion": "1.12.2",
-          "clientTimestamp": "2026-07-29T15:58:30.592Z"
         }
       },
-      "activeDevices": 2,
+      "activeDevices": 1,
       "danmuSent": 0,
-      "discussionSent": 2049,
+      "discussionSent": 1023,
       "danmuFailed": 0,
-      "discussionFailed": 12,
+      "discussionFailed": 3,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-30T15:59:59.999Z"
     },
@@ -2022,6 +2011,29 @@
       "discussionSent": 1952,
       "danmuFailed": 0,
       "discussionFailed": 4,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-07-30T15:59:59.999Z"
+    },
+    "巧笑倩兮": {
+      "weiboNickname": "巧笑倩兮",
+      "devices": {
+        "93e0bdf02ef36f9e709d5ae2fe4e448fb3dd0c6a5e5381f6e80c886d0b5b5772": {
+          "deviceHash": "93e0bdf02ef3",
+          "danmuSent": 0,
+          "discussionSent": 1026,
+          "danmuFailed": 0,
+          "discussionFailed": 9,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-07-30T15:59:59.999Z",
+          "appVersion": "1.12.2",
+          "clientTimestamp": "2026-07-29T15:58:30.592Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 0,
+      "discussionSent": 1026,
+      "danmuFailed": 0,
+      "discussionFailed": 9,
       "danmuSkipped": 0,
       "lastSeenAt": "2026-07-30T15:59:59.999Z"
     }
