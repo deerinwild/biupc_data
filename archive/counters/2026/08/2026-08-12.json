@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-12",
+  "updatedAt": "2026-08-11T16:10:40.487Z",
+  "users": {
+    "Sluggedcloud": {
+      "weiboNickname": "Sluggedcloud",
+      "devices": {
+        "0bfd1cbf7b97165f290d31d8da9a8c4396afdb04ca9764f5e655e459730099d2": {
+          "deviceHash": "0bfd1cbf7b97",
+          "danmuSent": 26,
+          "discussionSent": 0,
+          "danmuFailed": 0,
+          "discussionFailed": 0,
+          "danmuSkipped": 0,
+          "lastSeenAt": "2026-08-11T16:06:30.289Z",
+          "appVersion": "1.14.0",
+          "clientTimestamp": "2026-08-11T16:06:24.379Z"
+        }
+      },
+      "activeDevices": 1,
+      "danmuSent": 26,
+      "discussionSent": 0,
+      "danmuFailed": 0,
+      "discussionFailed": 0,
+      "danmuSkipped": 0,
+      "lastSeenAt": "2026-08-11T16:06:30.289Z"
+    }
+  }
+}
